@@ -1,16 +1,20 @@
 ---
 title: 모델 인사이트
-description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
+description: Marketing Campaign Analytics의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
+TQID: 'https://experienceleague.adobe.com/zoUwqJXQ0z2ttUwvF1cn5ukSvn8-Cxhpv5lXlWENkQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -20,16 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4c3c5548ced77cf84daf5cd8eb6708bfbc3dbb48
+source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
 workflow-type: tm+mt
-source-wordcount: '2951'
-ht-degree: 11%
+source-wordcount: '3099'
+ht-degree: 10%
 ---
 # 모델 인사이트
+
+{{mm-mca-rebranding}}
 
 모델 인사이트의 각 시각화는 다음을 수행하는 데 도움이 되도록 설계되었습니다.
 
@@ -39,12 +47,11 @@ ht-degree: 11%
 
 이러한 통찰력은 리소스 우선 순위 지정 및 할당을 지원하는 데 도움이 됩니다.
 
-모델 인사이트를 보려면 [!DNL Mix Modeler]의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 다음을 수행합니다.
+모델 인사이트를 보려면 [!DNL Marketing Campaign Analytics]의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 다음을 수행합니다.
 
 1. **[!UICONTROL Models]** 테이블에서 **[!UICONTROL Last run status]**&#x200B;이(가) ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**&#x200B;인 모델 이름을 선택하십시오.
 
 1. 컨텍스트 메뉴에서 **[!UICONTROL Model Insights]**&#x200B;을(를) 선택합니다.
-
 
 
 다음 탭을 사용할 수 있습니다.
@@ -55,6 +62,8 @@ ht-degree: 11%
 * [속성](#attribution)(MTA 사용 모델만 해당)
 * [진단](#diagnostics)
 * [기록 개요](#historical-overview).
+
+모델에 대해 [전체 funnel 모델링](./overview.md#full-funnel-modeling)이 활성화된 경우 **[!UICONTROL Funnel stage]** 드롭다운 메뉴에서 모델 인사이트를 확인할 funnel 단계(**[!UICONTROL Upper funnel]**, **[!UICONTROL Lower funnel]**, **[!UICONTROL Full funnel]**)를 선택하십시오.
 
 각 탭의 시각화의 기반이 되는 날짜 기간을 변경할 수 있습니다. 날짜 기간을 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 선택하여 날짜 기간을 선택하십시오.
 
@@ -126,6 +135,25 @@ ht-degree: 11%
 
 * **[!UICONTROL Channel]** 드롭다운 메뉴에서 채널을 선택하여 특정 채널에 대한 시각화를 업데이트합니다.
 
+## Funnel 흐름
+
+{{release-limited-testing-section}}
+
+모델에 대해 [전체 funnel 모델링](./overview.md#full-funnel-modeling)이 활성화되어 있고 Funnel 단계 드롭다운 메뉴에서 전체 funnel을 선택한 경우 Funnel 흐름 시각화를 사용할 수 있습니다.
+
+>[!BEGINTABS]
+
+>[!TAB Funnel 흐름]
+
+![Funnel 흐름](/help/assets/model-funnel-flow.png)
+
+>[!TAB funnel 흐름을 마우스로 가리킴]
+
+![모든 시너지 효과를 위한 채널 계획](/help/assets/model-funnel-flow-hover.png)
+
+>[!ENDTABS]
+
+특정 funnel 흐름에 대한 자세한 내용이 포함된 팝업을 보려면 흐름 위로 마우스를 가져갑니다.
 
 ### 접점 분류
 
@@ -163,16 +191,21 @@ ht-degree: 11%
 
 이 차세대 프레임워크는 교육 데이터의 실제 지출 조건을 설명하므로 보다 정보에 입각한 최적화 결정을 내릴 수 있으므로 상대적 시너지 강도에 대한 현실적인 척도를 제공합니다.
 
+모델에 대해 [전체 funnel 모델링](./overview.md#full-funnel-modeling)이 활성화된 경우 상위 funnel 채널 시너지 효과 및 하위 funnel 채널 시너지 효과에 대한 시각화가 표시됩니다.
 
 >[!BEGINTABS]
 
->[!TAB 시너지 효과 간단히 표시]
+>[!TAB 채널 시너지 효과 간단히 표시]
 
-![계획 채널 시너지 효과](/help/assets/model-channel-synergies-less.png)
+![채널 덜 시너지 효과 계획](/help/assets/model-channel-synergies-less.png)
 
->[!TAB 모든 시너지 효과 표시]
+>[!TAB 모든 채널 시너지 효과 표시]
 
-![계획 채널 시너지 효과](/help/assets/model-channel-synergies-all.png)
+![모든 시너지 효과를 위한 채널 계획](/help/assets/model-channel-synergies-all.png)
+
+>[!TAB Funnel 시너지 효과]
+
+![계획 채널 funnel 시너지 효과](/help/assets/model-channel-synergies-funnel.png)
 
 >[!ENDTABS]
 
@@ -210,6 +243,7 @@ ht-degree: 11%
 
 >[!ENDTABS]
 
+* 모델에 대해 [전체 funnel 모델링](./overview.md#full-funnel-modeling)이 활성화된 경우 Funnel 단계 드롭다운 메뉴에서 상위 funnel 또는 하위 funnel을 선택합니다.
 * **[!UICONTROL All channels]**&#x200B;에 대한 adstock 시각화 또는 개별 채널(예: **[!UICONTROL Paid Social Facebook]**)에 대한 adstock 시각화를 표시하려면 **[!UICONTROL Channel]** 드롭다운 메뉴에서 선택하십시오.
 
 
@@ -258,7 +292,7 @@ ht-degree: 11%
 
 지원되는 속성 모델은 다음과 같습니다.
 
-* [!DNL Mix Modeler]에서 선택한 모델을 기반으로 합니다.
+* [!DNL Marketing Campaign Analytics]에서 선택한 모델을 기반으로 합니다.
   * 알고리즘 - 영향
   * 알고리즘 - 증분
 * 규칙 기반:
@@ -268,13 +302,13 @@ ht-degree: 11%
   * 선형
   * U자형
 
-[!DNL Mix Modeler]의 다중 터치 속성 기능에 대한 소개는 [다중 터치 속성](../get-started/about.md#multi-touch-attribution)을 참조하십시오.
+[!DNL Marketing Campaign Analytics]의 다중 터치 속성 기능에 대한 소개는 [다중 터치 속성](../get-started/about.md#multi-touch-attribution)을 참조하십시오.
 
 **[!UICONTROL Attribution Model]** 드롭다운 메뉴에서 속성 모델을 하나 이상 선택합니다. 선택한 속성 모델은 속성 탭의 모든 시각화에 적용됩니다.
 
 ![특성](/help/assets/model-insights-attribution.png)
 
-Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL Mix Modeler] 점수 및 ROI에 맞게 조정됩니다. 이러한 점수는 Experience Platform에서 데이터 세트로 사용할 수도 있습니다.
+Marketing Campaign Analytics 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL Marketing Campaign Analytics] 점수 및 ROI에 맞게 조정됩니다. 이러한 점수는 Experience Platform에서 데이터 세트로 사용할 수도 있습니다.
 
 속성 탭은 다음 시각화로 구성됩니다.
 
@@ -420,8 +454,8 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL M
   * **[!UICONTROL Training R<sup>2</sup>]**: 모델의 예측으로 설명한 실제 값의 분산 비율을 나타냅니다(0 ~ 1 범위).
   * **[!UICONTROL Training sMAPE]**(대칭 평균 절대 백분율 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. 값이 낮을수록 정확도가 향상됩니다.
   * **[!UICONTROL Training RMSE]**(제곱 평균 제곱근 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. MAPE보다 더 큰 오류를 처벌합니다. 낮은 RMSE는 더 나은 예측 정확도를 시사하지만 이상치에 민감하다.
-  * **[!UICONTROL Out-of-sample sMAPE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Mix Modeler은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다.
-  * **[!UICONTROL Out-of-sample RMSE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 [!DNL Mix Modeler]은(는) 보류 집합으로 교육 데이터의 마지막 분기를 사용하여 백분율 오류를 평가합니다. RMSE는 MAPE보다 더 큰 오류를 처벌합니다.
+  * **[!UICONTROL Out-of-sample sMAPE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Marketing Campaign Analytics은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다.
+  * **[!UICONTROL Out-of-sample RMSE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 [!DNL Marketing Campaign Analytics]은(는) 보류 집합으로 교육 데이터의 마지막 분기를 사용하여 백분율 오류를 평가합니다. RMSE는 MAPE보다 더 큰 오류를 처벌합니다.
 
 
 * 기여도 AI 알고리즘 모델의 결과를 나타내는 **[!UICONTROL Touchpoint effectiveness]** 테이블입니다.
@@ -441,7 +475,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL M
 
 >[!AVAILABILITY]
 >
->이 섹션에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며, 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있는 경우 제거됩니다. [!DNL Mix Modeler] 릴리스 프로세스에 대한 자세한 내용은 [Mix Modeler 기능 릴리스](/help/releases/latest.md)를 참조하십시오.
+>이 섹션에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며, 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있는 경우 제거됩니다. [!DNL Marketing Campaign Analytics] 릴리스 프로세스에 대한 자세한 내용은 [Marketing Campaign Analytics 기능 릴리스](/help/releases/latest.md)를 참조하십시오.
 >
 
 모델 드리프트가 감지되면 맨 위에 **[!UICONTROL Model drift detected]** 알림이 표시됩니다.
