@@ -1,37 +1,45 @@
 ---
 title: 스키마
-description: Mix Modeler으로 데이터를 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
+description: Marketing Campaign Analytics으로 데이터를 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+autotag-review: '2026-05-01T08:56:54.552Z'
+TQID: 'https://experienceleague.adobe.com/GS91VDl1bmpHRPKVZTg6j-94nikFXXFHWLhoMoDWaw4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T08:56:54.552Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '618'
 ht-degree: 6%
-
 ---
-
 # 스키마
 
-Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 지원하는 스키마를 관리하려면 다음을 수행하십시오.
+{{mm-mca-rebranding}}
 
-1. Mix Modeler 인터페이스로 이동합니다.
+Experience Platform에서 수집하고 Marketing Campaign Analytics에서 사용할 데이터를 지원하는 스키마를 관리하려면 다음을 수행하십시오.
+
+1. Marketing Campaign Analytics 인터페이스로 이동합니다.
 
 1. **[!UICONTROL SETUP]** 아래의 ![스키마](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;을(를) 선택하십시오.
 
-자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko)를 참조하십시오.
+자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)를 참조하십시오.
 
 ## 집계 또는 요약 데이터
 
-XDM 요약 지표 클래스를 Experience Platform에서 수집하고 Mix Modeler에서 사용하려는 집계 또는 요약 데이터의 기본 스키마의 기반으로 사용하는 것이 좋습니다.
+XDM 요약 지표 클래스를 Experience Platform에서 수집하고 Marketing Campaign Analytics에서 사용하려는 집계 또는 요약 데이터의 기본 스키마의 기반으로 사용하는 것이 좋습니다.
 
 XDM 요약 지표 클래스 사용:
 
@@ -97,7 +105,7 @@ XDM 요약 지표 클래스 사용:
 
 ## 지원되는 데이터 유형
 
-현재 Mix Modeler은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. [스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#data-type)에 언급된 다음 기본 데이터 형식(필드)이 지원됩니다.
+현재 Marketing Campaign Analytics은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. [스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)에 언급된 다음 기본 데이터 형식(필드)이 지원됩니다.
 
 - 문자열
 - 정수

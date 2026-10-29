@@ -1,14 +1,19 @@
 ---
-title: Mix Modeler 딥 다이브
-description: 멀티 터치 속성, 마케팅 믹스 모델링, 전송 학습 및 예산 최적화를 포함하여 Adobe Mix Modeler에 숨겨진 기술 방법론을 살펴봅니다.
+title: Marketing Campaign Analytics 딥 다이브
+description: 멀티 터치 속성, 마케팅 믹스 모델링, 전송 학습 및 예산 최적화를 포함하여 Adobe Marketing Campaign Analytics에 숨겨진 기술 방법론을 살펴봅니다.
 feature: Administration
 hide: true
+TQID: 'https://experienceleague.adobe.com/vIeES6bmdXOt6GIEA5Mt--IbyJ5g64kf-gyb6oEK0Ro'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
     internal-label: Marketing touch attribution
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -24,23 +29,41 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2853'
 ht-degree: 0%
 ---
 
 # 심층 조사
 
 
-Adobe Mix Modeler은 멀티 터치 속성(MTA)과 마케팅 믹스 모델링(MMM)을 결합하여 정확하고 확장 가능하며 미래 지향적인 마케팅 통찰력을 제공하는 통합 AI/ML 기반 측정 플랫폼입니다. 이 문서에서는 Mix Modeler 이면의 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다. 이 세션은 [2025년 Summit 세션](https://business.adobe.com/kr/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}을 기반으로 합니다. 이 세션에서는 Mix Modeler에 숨겨진 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다.
+Adobe Marketing Campaign Analytics은 멀티 터치 속성(MTA)과 마케팅 믹스 모델링(MMM)을 결합하여 정확하고 확장 가능하며 미래 지향적인 마케팅 통찰력을 제공하는 통합 AI/ML 기반 측정 플랫폼입니다. 이 문서에서는 Marketing Campaign Analytics 이면의 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다. 이 세션은 [2025년 Summit 세션](https://business.adobe.com/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}을 기반으로 합니다. 이 세션에서는 Marketing Campaign Analytics에 숨겨진 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다.
 
-마케팅 복잡성이 증가하면 기존 측정 접근 방식에도 미치지 못합니다. 조각화된 데이터, 진화하는 개인정보 보호 제한, 속도와 엄격함 모두에 대한 요구 사항 때문에 마케팅 성과가 평가되는 방식을 재고해야 합니다. Adobe은 머신 러닝을 활용해 여러 데이터 소스를 합성하고 패러다임을 모델링하여 응집력 있는 전략으로 만드는 통합 시스템인 Mix Modeler에 대해 대응하고 있다.
+마케팅 복잡성이 증가하면 기존 측정 접근 방식에도 미치지 못합니다. 조각화된 데이터, 진화하는 개인정보 보호 제한, 속도와 엄격함 모두에 대한 요구 사항 때문에 마케팅 성과가 평가되는 방식을 재고해야 합니다. Adobe은 머신 러닝을 활용해 여러 데이터 소스를 합성하고 패러다임을 모델링하여 응집력 있는 전략으로 만드는 통합 시스템인 Marketing Campaign Analytics에 대해 대응하고 있다.
 
 
 >[!TIP]
 >
->Mix Modeler의 주요 이점 중 하나는 마케터를 위한 솔루션의 접근성입니다. 이 애플리케이션은 데이터 과학 배경이 필요 없는 사용하기 쉬운 인터페이스를 통해 데이터 과학의 복잡성을 간소화합니다. 깊이 있는 분석에 관심이 있는 경우 이 문서에서는 Mix Modeler 개발 시 선택한 기술에 대해 알아봅니다. 이 문서에서는 (고급) 데이터 과학 개념에 대해 어느 정도 익숙하다고 가정합니다.
+>Marketing Campaign Analytics의 주요 이점 중 하나는 마케터를 위한 솔루션의 접근성입니다. 이 애플리케이션은 데이터 과학 배경이 필요 없는 사용하기 쉬운 인터페이스를 통해 데이터 과학의 복잡성을 간소화합니다. 깊이 있는 분석에 관심이 있는 경우 이 문서에서는 Marketing Campaign Analytics 개발 시 선택한 기술에 대해 알아봅니다. 이 문서에서는 (고급) 데이터 과학 개념에 대해 어느 정도 익숙하다고 가정합니다.
 
 이 문서에서는 기본 구성 요소에 대해 자세히 설명합니다. 이러한 기본 구성 요소는 다음과 같습니다.
 
@@ -55,7 +78,7 @@ Adobe Mix Modeler은 멀티 터치 속성(MTA)과 마케팅 믹스 모델링(MMM
 
 ### 개요
 
-Mix Modeler을 구동하는 MTA(Multi-Touch Attribution) 모델은 이벤트 수준 데이터에 대해 학습된 이산 시간 생존 모델을 기반으로 합니다. 데이터에는 검색, 클릭 수, 제품 보기, 장바구니에 추가 및 체크아웃 등이 포함됩니다. 지도 학습을 활용하여 모형은 고객 여정의 각 단계에서의 조건부 전환 확률을 추정한다. 이 모델은 전환 및 비전환 고객 여정 경로를 모두 고려하여 서로 다른 마케팅 접점이 시간에 따라 고객 행동에 미치는 영향을 측정합니다. 전환 경로 못지않게 비전환 경로도 중요합니다. 두 경로 간의 대비는 특정 유형의 마케팅 접점이 전환을 효과적으로 유도하는지 여부를 이해하는 데 도움이 됩니다. 예를 들어, 한 유형의 접점이 전환 경로에서와 같이 비전환 경로에 나타날 수 있는 경우 해당 접점은 전환에 영향을 주지 않습니다. 이 동작은 전환 경로에 자주 나타나며 비전환 경로에는 나타나지 않는 접점에 반합니다.
+Marketing Campaign Analytics을 구동하는 MTA(Multi-Touch Attribution) 모델은 이벤트 수준 데이터에 대해 학습된 이산 시간 생존 모델을 기반으로 합니다. 데이터에는 검색, 클릭 수, 제품 보기, 장바구니에 추가 및 체크아웃 등이 포함됩니다. 지도 학습을 활용하여 모형은 고객 여정의 각 단계에서의 조건부 전환 확률을 추정한다. 이 모델은 전환 및 비전환 고객 여정 경로를 모두 고려하여 서로 다른 마케팅 접점이 시간에 따라 고객 행동에 미치는 영향을 측정합니다. 전환 경로 못지않게 비전환 경로도 중요합니다. 두 경로 간의 대비는 특정 유형의 마케팅 접점이 전환을 효과적으로 유도하는지 여부를 이해하는 데 도움이 됩니다. 예를 들어, 한 유형의 접점이 전환 경로에서와 같이 비전환 경로에 나타날 수 있는 경우 해당 접점은 전환에 영향을 주지 않습니다. 이 동작은 전환 경로에 자주 나타나며 비전환 경로에는 나타나지 않는 접점에 반합니다.
 
 ![이벤트 수준 데이터](/help/assets/event-level-data.png)
 
@@ -106,7 +129,7 @@ Mix Modeler을 구동하는 MTA(Multi-Touch Attribution) 모델은 이벤트 수
 
 ### 이점
 
-Mix Modeler에 대해 선택된 다중 터치 속성 접근 방식에는 몇 가지 주요 이점이 있습니다.
+Marketing Campaign Analytics에 대해 선택된 다중 터치 속성 접근 방식에는 몇 가지 주요 이점이 있습니다.
 
 * 전환 및 비전환 경로 모두를 고려하므로 실제 미디어 영향을 보다 정확하게 예측할 수 있습니다.
 * 주요 실제 고객 행동을 모델링하는 광고 및 축소 수익을 통합하고 규칙 기반 모델에서 종종 발견되는 단순화된 가정을 방지합니다.
@@ -114,12 +137,12 @@ Mix Modeler에 대해 선택된 다중 터치 속성 접근 방식에는 몇 가
 * 숨겨진 마르코프 모델과 같은 다른 메서드와 달리 명확하게 해석할 수 있는 직관적인 접점 속성을 지원합니다.
 * 다른 분류 알고리즘과 비교할 때 강력한 성능과 높은 예측 정확도를 제공합니다.
 
-Mix Modeler은 다중 터치 속성 결과로 얻은 인사이트에 대해 [마케터에게 친숙한 인터페이스](/help/models/insights.md#attribution)를 제공합니다.
+Marketing Campaign Analytics은 다중 터치 속성 결과로 얻은 인사이트에 대해 [마케터에게 친숙한 인터페이스](/help/models/insights.md#attribution)를 제공합니다.
 
 ![모델 속성 인사이트](/help/assets/model-insights-attribution.png)
 
 
-멀티 터치 속성은 이러한 모든 이점을 제공하지만 Mix Modeler은 이벤트 수준 데이터의 전환 통찰력에 전적으로 의존하지 않습니다. 마케팅 믹스 모델링은 집계 수준 데이터를 고려하는 또 다른 기본 구성 요소입니다.
+멀티 터치 속성은 이러한 모든 이점을 제공하지만 Marketing Campaign Analytics은 이벤트 수준 데이터의 전환 통찰력에 전적으로 의존하지 않습니다. 마케팅 믹스 모델링은 집계 수준 데이터를 고려하는 또 다른 기본 구성 요소입니다.
 
 ## 마케팅 믹스 모델링(MMM)
 
@@ -142,9 +165,9 @@ Mix Modeler은 다중 터치 속성 결과로 얻은 인사이트에 대해 [마
 * **곱셈 모델**: 판매 또는 전환은 기본 및 미디어 승수의 곱입니다.
 
   따라서 가산 모델을 사용하는 대신
-  *주간 전환 = 기준선 수요&#x200B;**+**&#x200B;검색 승수&#x200B;**+**&#x200B;표시 승수&#x200B;**+**....*
+  *주간 전환 = 기준선 수요&#x200B;**+**검색 승수&#x200B;**+**표시 승수&#x200B;**+**....*
 승산 모델 사용:
-  *주간 전환 = 기준선 수요&#x200B;**x**&#x200B;검색 승수&#x200B;**x**&#x200B;표시 승수&#x200B;**x**....*
+  *주간 전환 = 기준선 수요&#x200B;**x**검색 승수&#x200B;**x**표시 승수&#x200B;**x**....*
 
   또는 수식에서 다음을 수행합니다. ** Y = ⨍<sub>BL</sub>(X<sub>인자</sub>;θ<sub>인자</sub>) x<sub>⨍ ⨍S</sub>(X<sub>S</sub>;θ<sub>S</sub>) x<sub>D</sub>(X<sub>D</sub>;θ<sub>D</sub>)*
 
@@ -177,7 +200,7 @@ Mix Modeler은 다중 터치 속성 결과로 얻은 인사이트에 대해 [마
 * 동일한 수준의 마케팅 투자로 인해 외부 요인으로 인해 서로 다른 시간에 다른 수익을 얻을 수 있는 시변 영향.
 * 예상 시장 조건 또는 기준 변동이 시간 경과에 따른 예산 배분을 알리는 데 도움이 되는 시간 경과에 따른 예산 권장 사항.
 
-Mix Modeler은 마케팅 믹스 모델링으로 얻은 다양한 통찰력에 대해 [마케터에게 친숙한 인터페이스](/help/models/insights.md#attribution)를 제공합니다. 예를 들어, 모델에 포함된 다양한 요인에 귀속될 수 있는 기본 전환의 비율을 보여 주는 요인 기여도 분석 이 있습니다.
+Marketing Campaign Analytics은 마케팅 믹스 모델링으로 얻은 다양한 통찰력에 대해 [마케터에게 친숙한 인터페이스](/help/models/insights.md#attribution)를 제공합니다. 예를 들어, 모델에 포함된 다양한 요인에 귀속될 수 있는 기본 전환의 비율을 보여 주는 요인 기여도 분석 이 있습니다.
 
 
 ![요소 기여도 분석](/help/assets/factors-example.png)
@@ -212,7 +235,7 @@ Mix Modeler은 마케팅 믹스 모델링으로 얻은 다양한 통찰력에 �
 
 ## 전환 학습
 
-멀티 터치 속성 및 마케팅 믹스 모델링 다음으로, 실험은 마케팅 측정 문제를 해결하는 방법의 또 다른 중요한 기둥입니다. Mix Modeler의 프레임워크 내에서 실험이 구현되지 않더라도 특정 시장에서 마케팅을 끄는 것과 같은 실험을 사용하여 마케팅이 매출에 미치는 인과 관계를 이해할 수 있습니다.
+멀티 터치 속성 및 마케팅 믹스 모델링 다음으로, 실험은 마케팅 측정 문제를 해결하는 방법의 또 다른 중요한 기둥입니다. Marketing Campaign Analytics의 프레임워크 내에서 실험이 구현되지 않더라도 특정 시장에서 마케팅을 끄는 것과 같은 실험을 사용하여 마케팅이 매출에 미치는 인과 관계를 이해할 수 있습니다.
 
 Adobe은 이전 학습을 권장하고 사용하여 멀티 터치 속성, 마케팅 믹스 모델링, 실험 및 기타 사전 지식 소스의 통찰력을 혼합합니다.  이러한 블렌딩은 층상 접근법(layered approach)으로서 설명될 수 있다. 각 층에는 응집력 모델 제작의 한계를 설명하기 위한 틈이 있다. 그러나 레이어를 올바른 방법으로 스택하면 결합된 모델의 간격을 보상할 수 있습니다.
 멀티 터치 속성, 마케팅 믹스 모델링, 실험 및 사전 지식 소스의 조합을 사용할 때 이 비유를 적용하십시오. 각각의 성분들의 결함에 있어서 조합이 가장 적게 겪게 되는 방식으로 이들 성분들을 배합한다.
@@ -291,10 +314,10 @@ Adobe은 이전 학습을 권장하고 사용하여 멀티 터치 속성, 마케
 
 ## 요약
 
-Adobe Mix Modeler은 측정 도구 그 이상입니다. Mix Modeler은 의사 결정 지원 엔진이며 장점은 다음과 같습니다.
+Adobe Marketing Campaign Analytics은 측정 도구 그 이상입니다. Marketing Campaign Analytics은 의사 결정 지원 엔진이며 장점은 다음과 같습니다.
 
 * 통계적 엄격함으로 실제 환경의 복잡성을 모델링하는 기능
 * 다양한 데이터와 모델링 패러다임의 통합
 * 데이터 사용 중단 추세에 맞게 설계된 미래 지향적 아키텍처
 
-해석 가능성과 성능의 결합으로 Mix Modeler은 Adobe의 데이터 기반 마케팅 전환의 중심이 되었습니다. Mix Modeler은 마케팅 팀이 더 빠르고, 더 스마트하고, 더 정렬된 투자 결정을 내릴 수 있도록 지원합니다.
+해석 가능성과 성능의 결합으로 Marketing Campaign Analytics은 Adobe의 데이터 기반 마케팅 전환의 중심이 되었습니다. Marketing Campaign Analytics은 마케팅 팀이 더 빠르고, 더 스마트하고, 더 정렬된 투자 결정을 내릴 수 있도록 지원합니다.

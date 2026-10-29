@@ -1,13 +1,13 @@
 ---
 title: 홈 개요
-description: Mix Modeler에서 통합한 데이터와 계획을 개요하는 방법을 알아봅니다.
+description: Marketing Campaign Analytics에서 통합한 데이터와 계획을 개요하는 방법을 알아봅니다.
 feature: Dashboard, Plans, Harmonized Data, Models
 exl-id: ef034268-ef0a-4c9b-9dd5-d98ff8150b95
 autotag-review: '2026-05-01T09:18:23.288Z'
-TQID: 'https://experienceleague.adobe.com/jmYXD3MDg584DgtIJT8MeCj2VgCJ-Dgm8H0TceP7aG0'
+TQID: 'https://experienceleague.adobe.com/aFQuELdAYwaq0LnAl90Nxe7ruLIQ92UAibeeys51lpw'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -31,17 +31,23 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '69'
 ht-degree: 0%
 ---
 # 홈 개요
 
+{{mm-mca-rebranding}}
 
-Mix Modeler의 홈 개요 화면에는 구성 가능한 다양한 시각화를 통해 조정된 데이터와 플랜에 대한 개요가 표시됩니다.
+Marketing Campaign Analytics의 홈 개요 화면에는 구성 가능한 다양한 시각화를 통해 조정된 데이터와 플랜에 대한 개요가 표시됩니다.
 
-개요에 액세스하려면 Mix Modeler 인터페이스의 왼쪽 레일에서 ![홈](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;을(를) 선택하십시오.
+개요에 액세스하려면 Marketing Campaign Analytics 인터페이스의 왼쪽 레일에서 ![홈](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;을(를) 선택하십시오.
 
 여기에서 다음에 대한 자세한 내용을 확인할 수 있습니다.
 

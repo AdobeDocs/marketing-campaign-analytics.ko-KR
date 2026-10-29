@@ -1,46 +1,70 @@
 ---
-title: Mix Modeler 안내서
-description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
-short-description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
+title: Marketing Campaign Analytics 안내서
+description: Marketing Campaign Analytics을 사용하여 캠페인을 측정하고 모든 채널에서 전체적으로 계획을 최적화하는 방법을 알아봅니다.
+short-description: Marketing Campaign Analytics을 사용하여 캠페인을 측정하고 모든 채널에서 전체적으로 계획을 최적화하는 방법을 알아봅니다.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-TQID: https://experienceleague.adobe.com/XGSUhG3iwdjNowmk8AM87eCKv-JZF1DDAYzW0uktpes
 autotag-review: '2026-05-01T09:02:01.855Z'
+TQID: 'https://experienceleague.adobe.com/GoeY6zk9v3aRSfKJsRbvakvu2AV0jG4ggXqfGVZ-MK8'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
   - id: cb40363e-1205-4921-971c-9ee6bdb18329
+    internal-label: Scoring data
   - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+    internal-label: Marketing touchpoints
   - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+    internal-label: Harmonized fields
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 236
-ht-degree: 14%
-
+source-wordcount: '424'
+ht-degree: 0%
 ---
+# Adobe Marketing Campaign Analytics 안내서
 
-# Adobe Mix Modeler 안내서
+{{mm-mca-rebranding}}
 
-이 기술 설명서는 Adobe **Mix Modeler**&#x200B;에 대한 자가 진단 지원을 제공합니다. Mix Modeler은 캠페인을 측정하고 유료, 수익 및 소유 등 모든 채널에서 전체적으로 계획을 최적화하는 Adobe Experience Cloud 애플리케이션입니다. Mix Modeler은 Adobe Experience Platform의 맨 위에 구축되었으며 Adobe Sensei에서 지원합니다.
+이 기술 설명서는 Adobe **Marketing Campaign Analytics**(이전의 Adobe **[!UICONTROL Mix Modeler]**)에 대한 자가 진단 지원을 제공합니다. Marketing Campaign Analytics은 캠페인을 측정하고 유료, 획득, 소유 등 모든 채널에서 전체적으로 계획을 최적화하는 Adobe Experience Cloud 애플리케이션입니다. Marketing Campaign Analytics은 Adobe Experience Platform을 기반으로 구축됩니다.
 
 ## 기본 사항부터 시작
 
@@ -48,11 +72,11 @@ ht-degree: 14%
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong>빠른 시작</strong><br/>Mix Modeler의 워크플로에 대한 및 insight의 개요를 살펴보십시오.</div>
+    <div><strong>빠른 시작</strong><br/>Marketing Campaign Analytics의 워크플로에 대한 및 insight의 개요를 살펴보십시오.</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong>데이터 수집</strong><br/>이벤트 및 집계 또는 요약 데이터를 Mix Modeler으로 수집하는 방법에 대해 알아봅니다.</div>
+    <div><strong>데이터 수집</strong><br/>이벤트 및 집계 또는 요약 데이터를 Marketing Campaign Analytics으로 수집하는 방법에 대해 알아봅니다.</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
@@ -101,7 +125,7 @@ ht-degree: 14%
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>튜토리얼</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=ko">개요</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=ko">사용 사례</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=ko">사용자 워크플로우</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=ko">사용자 인터페이스 둘러보기</a>
+      <strong>튜토리얼</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">개요</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">사용 사례</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">사용자 워크플로우</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">사용자 인터페이스 둘러보기</a>
     </td>
   </tr>
 </table>

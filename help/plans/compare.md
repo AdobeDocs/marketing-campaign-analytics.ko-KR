@@ -1,29 +1,37 @@
 ---
 title: 계획 비교
-description: Mix Modeler에서 플랜을 비교하는 방법을 알아봅니다.
+description: Marketing Campaign Analytics에서 플랜을 비교하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-TQID: https://experienceleague.adobe.com/SJ2SlIAgIaRsrkhzebjky7FvHs4yOvWCxjWjaPi--fc
+autotag-review: '2026-05-01T09:07:12.191Z'
+TQID: 'https://experienceleague.adobe.com/43K31LJ-DUQZ6GzT7bAQMuTHhOl7M-2tSPHqbqqglGA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
 subfeature_v2:
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:07:12.191Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 0%
-
+source-wordcount: '209'
+ht-degree: 1%
 ---
-
 # 계획 비교
 
-Mix Modeler 계획 인터페이스에서 계획을 비교하려면 다음을 수행합니다.
+{{mm-mca-rebranding}}
+
+Marketing Campaign Analytics 계획 인터페이스에서 계획을 비교하려면 다음을 수행합니다.
 
 * ![비교](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**&#x200B;을(를) 선택합니다. 계획 비교에서 각 **[!UICONTROL _계획 선택_]**&#x200B;에 대한 계획을 선택합니다.
 
@@ -38,11 +46,11 @@ Mix Modeler 계획 인터페이스에서 계획을 비교하려면 다음을 수
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** 또는 **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** 또는 **[!UICONTROL CPA]**
-   * 예측 ROI는 플랜의 전반적인 예측 ROI입니다(기본 및 비지출 채널의 증분 수익 포함).
-   * 예측 CPA는 플랜의 전체 예측 CPA입니다(기본 및 비지출 채널의 증분 수익 포함).
+  * 예측 ROI는 플랜의 전반적인 예측 ROI입니다(기본 및 비지출 채널의 증분 수익 포함).
+  * 예측 CPA는 플랜의 전체 예측 CPA입니다(기본 및 비지출 채널의 증분 수익 포함).
 * **[!UICONTROL Paid marketing ROI]** 또는 **[!UICONTROL CPA]**
-   * 유료 마케팅 ROI는 예측된 ROI의 하위 집합입니다. 유료 마케팅 ROI는 플랜의 유료 채널에만 대한 ROI입니다.
-   * 유료 마케팅 CPA는 예측된 CPA의 하위 집합입니다. 유료 마케팅 CPA는 플랜의 유료 채널에만 대한 CPA입니다.
+  * 유료 마케팅 ROI는 예측된 ROI의 하위 집합입니다. 유료 마케팅 ROI는 플랜의 유료 채널에만 대한 ROI입니다.
+  * 유료 마케팅 CPA는 예측된 CPA의 하위 집합입니다. 유료 마케팅 CPA는 플랜의 유료 채널에만 대한 CPA입니다.
 * **[!UICONTROL ROI]** 또는 **[!UICONTROL CPA]** **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted revenue]** 또는 **[!UICONTROL conversion]**.
 * **[!UICONTROL Paid marketing revenue]** 또는 **[!UICONTROL conversion]**

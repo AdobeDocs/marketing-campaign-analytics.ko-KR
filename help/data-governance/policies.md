@@ -1,14 +1,16 @@
 ---
 title: 정책
-description: Mix Modeler에서 정책에 액세스하는 방법을 알아봅니다.
+description: Marketing Campaign Analytics에서 정책에 액세스하는 방법을 알아봅니다.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
 autotag-review: '2026-05-01T09:17:02.907Z'
-TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
+TQID: 'https://experienceleague.adobe.com/uTMFYn3vc4-6JJefPhgFXGwaajrWQbgr9lW0y2s5B8U'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -30,16 +32,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 2%
 ---
 # 정책
 
-워크플로우를 통해 모델을 만들고 모델의 구성을 제출하면 [정책 시행](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)에서 위반이 있는지 확인합니다. 정책 위반이 발생하면 하나 이상의 정책이 위반되었음을 나타내는 팝오버가 표시됩니다. 이 검사는 Experience Platform 내의 데이터 작업 및 마케팅 작업이 데이터 사용 정책을 준수하는지 확인하기 위한 것입니다.
+{{mm-mca-rebranding}}
 
-기본적으로 Mix Modeler은 다음 레이블 및 마케팅 작업과 관련된 Adobe 정의 정책 위반이 있는지 확인합니다.
+워크플로우를 통해 모델을 만들고 모델의 구성을 제출하면 [정책 시행](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)에서 위반이 있는지 확인합니다. 정책 위반이 발생하면 하나 이상의 정책이 위반되었음을 나타내는 팝오버가 표시됩니다. 이 검사는 Experience Platform 내의 데이터 작업 및 마케팅 작업이 데이터 사용 정책을 준수하는지 확인하기 위한 것입니다.
+
+기본적으로 Marketing Campaign Analytics은 다음 레이블 및 마케팅 작업과 관련된 Adobe 정의 정책 위반이 있는지 확인합니다.
 
 | 정책 이름 | 관련 레이블 | 연계된 마케팅 액션 |
 |---|---|---|
@@ -81,12 +85,12 @@ ht-degree: 2%
 왼쪽 레일의 ![개인 정보](/help/assets/icons/Privacy.svg) **[!UICONTROL Policies]** 선택 항목에서는 Experience Platform의 [!UICONTROL Policies] 인터페이스에 액세스할 수 있으므로 정책, 레이블 및 마케팅 작업을 관리할 수 있습니다.
 
 <!--
-Currently,  Mix Modeler does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
+Currently,  Marketing Campaign Analytics does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
 -->
 
 >[!MORELIKETHIS]
 >
->[데이터 사용 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/policies/overview)
+>[데이터 사용 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

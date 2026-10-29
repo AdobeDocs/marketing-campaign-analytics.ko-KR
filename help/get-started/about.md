@@ -1,25 +1,25 @@
 ---
-title: Mix Modeler 개요
-description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니다.
-short-description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니다.
+title: Marketing Campaign Analytics 개요
+description: Marketing Campaign Analytics의 기능에 대한 개요를 살펴보십시오.
+short-description: Marketing Campaign Analytics의 기능에 대한 개요를 살펴보십시오.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 autotag-review: '2026-05-01T09:14:10.130Z'
-TQID: 'https://experienceleague.adobe.com/66NcfgGeMriaUXgpJ-h2MV2PBISSE5GMz3WWuF-i2u4'
+TQID: 'https://experienceleague.adobe.com/p5U62D65U-w6VtaGOsBuJlKWxcz2p-Qgku6zq-ezNQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
-  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-    internal-label: Marketing touch attribution
-  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-    internal-label: Plans
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,24 +40,24 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 3%
+source-wordcount: '786'
+ht-degree: 0%
 ---
-# Mix Modeler 개요
+# Marketing Campaign Analytics 개요
 
-Adobe Sensei을 기반으로 하는 Mix Modeler을 통해 마케터는 캠페인을 측정하고 유료, 획득 및 소유 등 모든 채널에서 전체적으로 계획을 최적화할 수 있습니다. 통합된 방법론은 마케팅 접점 및 집계 수준에서 점진적으로 측정되면서 완전히 일관된 결과를 보장합니다.
+Adobe Sensei을 기반으로 하는 Marketing Campaign Analytics을 통해 마케터는 캠페인을 측정하고 유료, 획득 및 소유 등 모든 채널에서 전체적으로 계획을 최적화할 수 있습니다. 통합된 방법론은 마케팅 접점 및 집계 수준에서 점진적으로 측정되면서 완전히 일관된 결과를 보장합니다.
 
-Mix Modeler은 디지털 및 오프라인 마케팅을 위한 전체적인(종단간) 측정 애플리케이션을 통해 비즈니스 및 캠페인 결과에 모든 마케팅 활동이 미치는 점진적인 영향을 제공합니다.
+Marketing Campaign Analytics은 디지털 및 오프라인 마케팅을 위한 전체적인(종단간) 측정 애플리케이션을 통해 비즈니스 및 캠페인 결과에 모든 마케팅 활동이 미치는 점진적인 영향을 제공합니다.
 
-Mix Modeler은 전략적 및 전술적 수준에서 다음 유형의 최적화되고 실행 가능한 통찰력을 제공하므로 보다 잘 이해할 수 있습니다.
+Marketing Campaign Analytics은 전략적 및 전술적 수준에서 다음 유형의 최적화되고 실행 가능한 통찰력을 제공하므로 보다 잘 이해할 수 있습니다.
 
 * 다양한 채널에서 마케팅 지출 및 결과 성과
 * 향후 비즈니스 목표를 달성하기 위한 권장 투자 수준.
 
 
-이 기능을 수행하기 위해 Mix Modeler은 다음을 결합합니다.
+이 기능을 수행하기 위해 Marketing Campaign Analytics은 다음을 결합합니다.
 
 * 상향식(이벤트 수준) 데이터 및 하향식(집계 수준) 데이터
 * 외부 시장 요인과 내부 요인 및
@@ -70,7 +70,7 @@ AI/ML 양방향 전송 학습은 마케팅 믹스 모델링(MMM)과 멀티 터�
 
 ## 기능
 
-Mix Modeler은 다음 기능을 제공합니다.
+Marketing Campaign Analytics은 다음 기능을 제공합니다.
 
 | 기능 | 설명 |
 |---|---|
@@ -83,12 +83,12 @@ Mix Modeler은 다음 기능을 제공합니다.
 
 >[!MORELIKETHIS]
 >
->[Mix Modeler 워크플로 이해](workflow.md)
+>[Marketing Campaign Analytics 워크플로 이해](workflow.md)
 
 
 ### 마케팅 믹스 모델링(MMM)
 
-Mix Modeler의 마케팅 믹스 모델링은 다양한 마케팅 전술과 비즈니스 요소가 전환 지표에 미치는 증분 영향을 측정하는 데 사용되는 개인정보 보호 친화적인 머신 러닝 분석입니다. 기업과 마케터가 이해할 수 있도록 도와줍니다
+Marketing Campaign Analytics의 마케팅 믹스 모델링은 다양한 마케팅 전술과 비즈니스 요소가 전환 지표에 미치는 증분 영향을 측정하는 데 사용되는 개인정보 보호 친화적인 머신 러닝 분석입니다. 기업과 마케터가 이해할 수 있도록 도와줍니다
 
 * 마케팅 전략의 효과
 * 비즈니스 요소가 고객 행동에 미치는 영향 및
@@ -96,7 +96,7 @@ Mix Modeler의 마케팅 믹스 모델링은 다양한 마케팅 전술과 비�
 
 이 포괄적인 분석을 통해 기업은 다양한 비즈니스 라인, 지역, 채널 및 캠페인에 마케팅 예산을 전략적으로 할당하는 동시에 향후 이벤트의 비즈니스 영향에 대한 예측 통찰력을 제공할 수 있습니다.
 
-Mix Modeler의 마케팅 믹스 모델링 기능은 다음 사용 사례를 해결하는 데 기본이 됩니다.
+Marketing Campaign Analytics의 마케팅 믹스 모델링 기능은 다음 사용 사례를 해결하는 데 기본이 됩니다.
 
 * 경영진 보고: 경영진이 마케팅의 진정한 증분 영향을 전체 및 채널, 지역, SKU 등으로 이해할 수 있도록 합니다.
 * 전략 계획: 장기 마케팅 전략을 알리고 향후 캠페인에 대한 현실적인 목표와 벤치마크를 설정합니다.
@@ -106,9 +106,9 @@ Mix Modeler의 마케팅 믹스 모델링 기능은 다음 사용 사례를 해�
 
 ### MTA(다중 터치 속성)
 
-Mix Modeler의 다중 터치 속성은 전환 이벤트로 이어지는 이벤트 수준 접점에 크레딧을 적용하는 데 활용할 수 있는 선택적 머신 러닝 분석입니다. 이 속성은 마케터가 추적 가능한 고객 여정에서 각 개별 마케팅 접점의 마케팅 효과를 수량화하는 데 사용됩니다. 이러한 디지털 마케팅 캠페인 터치포인트는 일반적으로 디스플레이 광고 클릭, 이메일 전송, 이메일 열기 및 유료 검색 클릭입니다. 다중 터치 속성은 인쇄 광고, 게시판 또는 TV 광고 및 비즈니스 요소와 같은 대부분의 오프라인 접점을 측정할 수 없습니다. 이러한 터치포인트에는 고객 여정에 결합할 수 없는 요약 수준 데이터만 있습니다.
+Marketing Campaign Analytics의 다중 터치 속성은 전환 이벤트로 이어지는 이벤트 수준 접점에 크레딧을 적용하는 데 활용할 수 있는 선택적 머신 러닝 분석입니다. 이 속성은 마케터가 추적 가능한 고객 여정에서 각 개별 마케팅 접점의 마케팅 효과를 수량화하는 데 사용됩니다. 이러한 디지털 마케팅 캠페인 터치포인트는 일반적으로 디스플레이 광고 클릭, 이메일 전송, 이메일 열기 및 유료 검색 클릭입니다. 다중 터치 속성은 인쇄 광고, 게시판 또는 TV 광고 및 비즈니스 요소와 같은 대부분의 오프라인 접점을 측정할 수 없습니다. 이러한 터치포인트에는 고객 여정에 결합할 수 없는 요약 수준 데이터만 있습니다.
 
-Mix Modeler의 멀티 터치 속성은 두 가지 범주의 점수를 지원합니다.
+Marketing Campaign Analytics의 멀티 터치 속성은 두 가지 범주의 점수를 지원합니다.
 
 * 증분 및 영향을 주는 점수를 포함하는 알고리즘 점수:
   * 영향을 받는 점수는 각 마케팅 접점이 담당하는 전환의 비율입니다.
@@ -116,13 +116,13 @@ Mix Modeler의 멀티 터치 속성은 두 가지 범주의 점수를 지원합�
 
 * 첫 번째 터치, 마지막 터치, 선형, U자형 및 시간 감소가 포함된 규칙 기반 점수.
 
-다음 사용 사례에서는 Mix Modeler의 다중 터치 속성 기능을 사용할 수 있습니다.
+다음 사용 사례에서는 Marketing Campaign Analytics의 다중 터치 속성 기능을 사용할 수 있습니다.
 
 * 캠페인 예산 할당: 마케팅 채널 전체에 예산 할당 결정을 알립니다.
 * 캠페인 최적화: 각 채널 내에서 어떤 SKU 또는 Geo에 대해 더 잘 작동하는 캠페인, 크리에이티브 및 키워드를 이해합니다. 이렇게 이해하면 마케팅 팀이 전략을 최적화할 수 있도록 각 채널을 살펴볼 수 있습니다.
 * 전체 funnel 이벤트 수준 속성: 전체 고객 여정에서 마케팅이 미치는 영향을 파악합니다. 예를 들어 무료 계정 등록은 유료 전환 및 그 이상에 해당합니다.
 * 파트너 평가: 기여도 분석 결과를 기반으로 에이전시와 파트너의 효과를 평가합니다.
 
-Mix Modeler 내의 다중 터치 속성 인사이트에 액세스하는 방법은 [모델 인사이트 - 속성](../models/insights.md#attribution)을 참조하십시오.
+Marketing Campaign Analytics 내의 다중 터치 속성 인사이트에 액세스하는 방법은 [모델 인사이트 - 속성](../models/insights.md#attribution)을 참조하십시오.
 
 

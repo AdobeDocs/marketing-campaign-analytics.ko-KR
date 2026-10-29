@@ -1,15 +1,20 @@
 ---
 title: 데이터 세트 조화 개요
-description: Mix Modeler에서 데이터를 조화롭게 구성하는 방법에 대해 알아봅니다.
+description: Marketing Campaign Analytics에서 데이터를 조화롭게 구성하는 방법에 대해 알아봅니다.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+autotag-review: '2026-05-01T09:10:10.340Z'
+TQID: 'https://experienceleague.adobe.com/QFpx2-PjU-GBiyocCsL-myjLoETUJGOikkLcdaGDlGk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
     internal-label: Conversions
@@ -29,20 +34,21 @@ role_v2:
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
     internal-label: Data quality
-autotag-review: '2026-05-01T09:10:10.340Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1389'
 ht-degree: 17%
 ---
 # 데이터 세트 조화 개요
 
-Mix Modeler의 데이터는 데이터 소스에 따라 그 성격이 다릅니다. 데이터는 다음과 같을 수 있습니다.
+{{mm-mca-rebranding}}
+
+Marketing Campaign Analytics의 데이터는 데이터 소스에 따라 그 성격이 다릅니다. 데이터는 다음과 같을 수 있습니다.
 
 * 집계 또는 요약 데이터(예: 담으로 둘러싸인 정원 데이터 소스에서 수집되거나 빌보드 캠페인, 이벤트 또는 물리적 광고 캠페인을 실행하여 수집된(지출) 오프라인 광고 데이터)
 * 이벤트 데이터(예: 자사 데이터 소스). 이 이벤트 데이터는 Adobe Analytics의 Adobe Analytics 소스 커넥터, Experience Platform 웹 또는 Mobile SDK 또는 Edge Network API를 통해 수집된 데이터 또는 소스 커넥터를 사용하여 수집된 데이터일 수 있습니다.
 
-Mix Modeler의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. 이 데이터 보기는 Mix Modeler의 모델에 대한 소스입니다. 이 서비스는 여러 데이터 세트에서 가장 높은 세부 기간을 사용합니다. 예를 들어, 한 데이터 세트에 월간 세부 기간이 있고 나머지 데이터 세트에 주별 및 일별 세부 기간이 있는 경우, 조화 서비스는 월간 세부 기간을 사용하여 데이터 보기를 만듭니다.
+Marketing Campaign Analytics의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. 이 데이터 보기는 Marketing Campaign Analytics의 모델에 대한 소스입니다. 이 서비스는 여러 데이터 세트에서 가장 높은 세부 기간을 사용합니다. 예를 들어, 한 데이터 세트에 월간 세부 기간이 있고 나머지 데이터 세트에 주별 및 일별 세부 기간이 있는 경우, 조화 서비스는 월간 세부 기간을 사용하여 데이터 보기를 만듭니다.
 
 ## 요인
 
@@ -52,7 +58,7 @@ Mix Modeler의 조화 서비스는 집계 및 이벤트 데이터를 일관된 �
 
 * 외부 요인은 조직의 제어 범위를 벗어나는 요인이지만, 사용자의 전환에 영향을 줄 수 있습니다. CPI, S&amp;P 500 등을 예로 들 수 있습니다.
 
-Mix Modeler의 요소 기능은 조화로운 요소 워크플로를 사용합니다. 이 워크플로우는 요소 관리 방법을 단순화하고 모델 간에 일관성을 제공하며 직관적인 경험을 제공합니다.
+Marketing Campaign Analytics의 요소 기능은 조화로운 요소 워크플로를 사용합니다. 이 워크플로우는 요소 관리 방법을 단순화하고 모델 간에 일관성을 제공하며 직관적인 경험을 제공합니다.
 
 다음과 같이 조화로운 요소 워크플로의 일부로:
 
@@ -71,7 +77,7 @@ Mix Modeler의 요소 기능은 조화로운 요소 워크플로를 사용합니
 
 ## 조정된 데이터의 예
 
-Mix Modeler에 다음 데이터 세트를 사용할 수 있다고 가정해 보겠습니다.
+Marketing Campaign Analytics에 다음 데이터 세트를 사용할 수 있다고 가정해 보겠습니다.
 
 **데이터 집합 1**
 
@@ -164,7 +170,7 @@ Mix Modeler에 다음 데이터 세트를 사용할 수 있다고 가정해 보�
 
 ## 조화로운 데이터 보기
 
-Mix Modeler 인터페이스에서 조정된 데이터를 보려면 다음을 수행하십시오.
+Marketing Campaign Analytics 인터페이스에서 조정된 데이터를 보려면 다음을 수행하십시오.
 
 1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]**&#x200B;을(를) 선택합니다.
 

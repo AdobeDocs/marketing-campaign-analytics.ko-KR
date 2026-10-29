@@ -1,13 +1,13 @@
 ---
 title: 계획 성과
-description: Mix Modeler에서 성능을 사용하여 개요를 계획하는 방법에 대해 알아봅니다.
+description: Marketing Campaign Analytics에서 성능을 사용하여 개요를 계획하는 방법에 대해 알아봅니다.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 autotag-review: '2026-05-01T09:20:18.412Z'
-TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
+TQID: 'https://experienceleague.adobe.com/wz2IEd-oBB8N-BSAdXMkcz9xS0xn7l4FlRJoBaQcCAw'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
@@ -29,18 +29,27 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '544'
 ht-degree: 0%
 ---
 # 계획 성과
 
+{{mm-mca-rebranding}}
+
 >[!NOTE]
 >
->Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} 탭은 Beta 기능이며 기능은 변경될 수 있습니다. 이 기능은 제한된 수의 고객이 사용할 수 있습니다.
+>Marketing Campaign Analytics ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} 탭은 Beta 기능이며 기능은 변경될 수 있습니다. 이 기능은 제한된 수의 고객이 사용할 수 있습니다.
 
-Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} 탭은 계획에 대한 마케팅의 성과를 모니터링하는 추적 대시보드를 제공합니다. 상태 카드 및 시각화를 통해 실제 성능과 계획된 성과를 추적할 수 있습니다.
+Marketing Campaign Analytics ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} 탭은 계획에 대한 마케팅의 성과를 모니터링하는 추적 대시보드를 제공합니다. 상태 카드 및 시각화를 통해 실제 성능과 계획된 성과를 추적할 수 있습니다.
 
 대시보드를 통해 격차, 위험 또는 기회를 파악하고 계획 및 예산을 시기 적절하게 조정할 수 있습니다.
 
