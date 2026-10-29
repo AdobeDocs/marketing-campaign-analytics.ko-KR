@@ -2,7 +2,7 @@
 title: Marketing Campaign Analytics에서 모델 구축
 description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법을 포함하여 Marketing Campaign Analytics에서 모델을 구축하는 방법에 대해 알아봅니다. 전환 목표, 접점, 광고 및 일정 등.
 feature: Models
-solution: Mix Modeler
+solution: Marketing Campaign Analytics
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: 'https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4'
 product_v2:
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 67f7acd32f3456e71dbea0baf147bf2dc1e01980
+source-git-commit: 803bbfb863f55ef5d043c1e1592acd8c6d4bab44
 workflow-type: tm+mt
 source-wordcount: '1903'
 ht-degree: 7%
