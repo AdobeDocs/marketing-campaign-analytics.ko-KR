@@ -2,10 +2,10 @@
 user-guide-title: Marketing Campaign Analytics 안내서
 breadcrumb-title: Marketing Campaign Analytics 안내서
 user-guide-description: Marketing Campaign Analytics 사용 방법을 알아봅니다.
-source-git-commit: b88d7de7fa8e964c58e1751957e09cc1699b319b
+source-git-commit: d232da07619419cc1ea789d41955a2c735eaa958
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 31%
+source-wordcount: '106'
+ht-degree: 29%
 ---
 # Marketing Campaign Analytics 안내서 {#using}
 
@@ -66,3 +66,5 @@ ht-degree: 31%
 + {hide-from-toc}[심층 분석](/help/get-started/deep-dive.md)
 
 + [용어집](/help/main-guide/glossary.md)
+
++ [MCP 서버](https://developer.adobe.com/analytics-mcp/docs/mca/)
