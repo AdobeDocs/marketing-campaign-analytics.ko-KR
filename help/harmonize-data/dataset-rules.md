@@ -1,34 +1,51 @@
 ---
 title: 데이터 세트 규칙
-description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
+description: Marketing Campaign Analytics에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+autotag-review: '2026-05-01T09:12:48.985Z'
+TQID: 'https://experienceleague.adobe.com/y9TAqZY49fiIesDpEQ-NO58bR2SU3hYvqk5lAlgrslA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 2161
+source-wordcount: '2169'
 ht-degree: 3%
-
 ---
-
 # 데이터 세트 규칙
 
-데이터 세트 규칙은 조화 된 필드를 Mix Modeler에서 수집한 데이터의 필드와 매핑하는 데 도움이 됩니다.
+{{mm-mca-rebranding}}
+
+데이터 세트 규칙은 조화 된 필드를 Marketing Campaign Analytics에서 수집한 데이터의 필드와 매핑하는 데 도움이 됩니다.
 
 * Adobe Experience Platform에서 수집한 집계 데이터의 경우 사용 가능한 데이터 세트 필드 중 하나 이상을 적절한 조화된 필드에 매핑합니다.
 * 이벤트 데이터의 경우, 직접 또는 조건을 사용하여 하나 이상의 조정된 필드를 데이터 세트의 필드에 개별적으로 매핑할 수 있습니다.
@@ -37,7 +54,7 @@ ht-degree: 3%
 
 ## 데이터 세트 규칙 관리
 
-Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표를 보려면 다음을 수행하십시오.
+Marketing Campaign Analytics 인터페이스에서 사용 가능한 데이터 세트 규칙 표를 보려면 다음을 수행하십시오.
 
 1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
@@ -69,7 +86,7 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
 ### 데이터 세트 규칙 만들기
 
-데이터 집합 규칙을 만들려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 **[!UICONTROL Dataset rules configuration]** 마법사의 **[!UICONTROL Create a dataset rule]**&#x200B;을(를) 선택하십시오.
+데이터 집합 규칙을 만들려면 Marketing Campaign Analytics의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 **[!UICONTROL Dataset rules configuration]** 마법사의 **[!UICONTROL Create a dataset rule]**&#x200B;을(를) 선택하십시오.
 
 **[!UICONTROL Create]** 화면에서
 
@@ -83,7 +100,7 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
    게시자와 함께 작업하면 상당한 지출이 수반되는 경우가 많기 때문에 게시자의 보고 데이터는 마케팅 분석가에게 매우 중요하며 보고 데이터를 변경하면 통찰력과 투자 계획이 매우 달라질 수 있습니다. 또한 마케팅 분석가는 올바른 통찰력을 도출하고 설득력 있는 제안을 제시하여 관련자의 신뢰를 얻을 수 있는 정확한 데이터가 필요합니다. 그러나 Google 및 Facebook과 같은 이러한 게시자는 데이터를 조정할 때 보고 데이터를 다시 표시하거나 삭제하는 경우가 많습니다. 대부분의 변경 사항에 대한 시간대는 보고된 미디어 성능에서 7일 이내입니다. 데이터에 대한 추가 변경은 30일 이내에 가능합니다. 일반적으로 30일이 지나면 책이 폐쇄되고 자료가 완성되는 것으로 간주된다.
 
-   Mix Modeler은 데이터 재정의를 지원합니다. 보고, 모델링 및 계획에 사용되는 데이터가 정확한지 확인하기 위해 또한 이 데이터는 브랜드 및 마케팅 분석가의 기대와 요구를 지원할 수 있습니다.
+   Marketing Campaign Analytics은 데이터 재정의를 지원합니다. 보고, 모델링 및 계획에 사용되는 데이터가 정확한지 확인하기 위해 또한 이 데이터는 브랜드 및 마케팅 분석가의 기대와 요구를 지원할 수 있습니다.
 
    요약 데이터의 다시 기술된 행을 Experience Platform 데이터 세트에서 증분 행으로 보낼 수 있으며 조화 서비스는 다시 기술된 데이터로 조화 데이터 세트를 업데이트합니다. 마찬가지로, 조화 서비스에 반영해야 하는 요약 데이터의 행을 제거할 수도 있습니다.
 
@@ -135,7 +152,7 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
 #### 요약 데이터 세트
 
-요약 데이터 세트에서 표준 조화 필드를 매핑하면 Mix Modeler은 해당 Experience Platform 데이터 세트 필드를 추론합니다. 성공 시:
+요약 데이터 세트에서 표준 조화 필드를 매핑하면 Marketing Campaign Analytics은 해당 Experience Platform 데이터 세트 필드를 추론합니다. 성공 시:
 
 * 필드가 유형 차원이면 **[!UICONTROL Map into]**&#x200B;이(가) **[!UICONTROL Mapping type]**(으)로 선택됩니다.
 * 필드가 유형 지표인 경우 **[!UICONTROL Sum]**&#x200B;이(가) **[!UICONTROL Mapping type]**(으)로 선택됩니다.
@@ -212,7 +229,7 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
 ### 데이터 세트 규칙 편집
 
-데이터 집합 규칙을 편집하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
+데이터 집합 규칙을 편집하려면 Marketing Campaign Analytics의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
 
 1. 편집할 데이터 세트 규칙에 대해 **[!UICONTROL Dataset]** 열에서 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. 컨텍스트 메뉴에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 데이터 집합 규칙 편집을 시작합니다. 자세한 내용은 [데이터 집합 규칙 만들기](#create-a-dataset-rule)를 참조하세요.
@@ -220,7 +237,7 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
 ### 데이터 세트 규칙 삭제
 
-데이터 집합 규칙을 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
+데이터 집합 규칙을 삭제하려면 Marketing Campaign Analytics의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
 
 1. 삭제할 데이터 세트 규칙에 대해 **[!UICONTROL Dataset]** 열에서 ![자세히](/help/assets/icons/More.svg)를 선택하십시오.
 1. 컨텍스트 메뉴에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 데이터 집합 규칙을 삭제합니다. 확인을 묻는 메시지가 표시됩니다. 선택한 데이터 집합 규칙을 영구적으로 삭제하려면 **[!UICONTROL Delete]**&#x200B;을(를) 선택하십시오.

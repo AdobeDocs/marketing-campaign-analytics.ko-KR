@@ -1,16 +1,18 @@
 ---
 title: Harmonized data dashboard
-description: Mix Modeler의 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
+description: Marketing Campaign Analytics의 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
 autotag-review: '2026-05-01T09:17:34.958Z'
-TQID: 'https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE'
+TQID: 'https://experienceleague.adobe.com/aK7JDAfi4f-MnQ4EelKLGlL-JBnFUWuSs3VrD8264qE'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
     internal-label: Administration
 subfeature_v2:
@@ -28,14 +30,18 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 0%
 ---
 # 조화 데이터
 
-Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Harmonized data]** 탭은 수집된 데이터 및 조정된 데이터 설정의 일부로 사용하도록 구성한 조정된 데이터에 대한 통찰력을 제공합니다.
+{{mm-mca-rebranding}}
+
+Marketing Campaign Analytics ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Harmonized data]** 탭은 수집된 데이터 및 조정된 데이터 설정의 일부로 사용하도록 구성한 조정된 데이터에 대한 통찰력을 제공합니다.
 
 이 개요에서는 네 개의 KPI 상태 카드 시각화(맨 위 행)와 여섯 개의 다른 구성 가능한 시각화 를 보여 줍니다.
 

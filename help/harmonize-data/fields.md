@@ -1,28 +1,34 @@
 ---
 title: 조화된 필드
-description: Mix Modeler에서 데이터를 조화시키는 과정에서 사용할 필드를 정의하는 방법을 알아봅니다.
+description: Marketing Campaign Analytics에서 데이터를 조화시키는 과정에서 사용할 필드를 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+autotag-review: '2026-05-01T09:13:17.577Z'
+TQID: 'https://experienceleague.adobe.com/ZmBwgBCVOPCVJ1pdniya3RvjWagTQuLSQoxluuDQLbc'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
   - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+    internal-label: Harmonized fields
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:13:17.577Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '694'
 ht-degree: 11%
-
 ---
-
 # 조화된 필드
+
+{{mm-mca-rebranding}}
 
 조화된 필드를 사용하면 서로 다른 소스에서 가져온 동일한 데이터에 대해 해당 데이터에 대한 자체 정의를 사용하여 개념적으로 동일한 데이터에 대한 필드를 정의할 수 있습니다. 예를 들어 클릭 지표는 데이터 소스에 따라 다르게 정의되고 명명될 수 있습니다. 클릭 수 조화 필드를 사용하면 클릭 수의 서로 다른 소스 데이터를 기반으로 클릭 수에 대한 일반적인 명명법을 정의할 수 있습니다.
 
@@ -30,7 +36,7 @@ ht-degree: 11%
 
 ## 전역 조화 필드
 
-Mix Modeler에서 사용할 수 있는 기본 전역 조화 필드는 다음과 같습니다.
+Marketing Campaign Analytics에서 사용할 수 있는 기본 전역 조화 필드는 다음과 같습니다.
 
 
 | 필드 이름 | 표시 이름 | 카테고리 | 데이터 유형 | 댓글 |
@@ -65,7 +71,7 @@ Mix Modeler에서 사용할 수 있는 기본 전역 조화 필드는 다음과 
 
 ## 조화로운 필드 관리
 
-Mix Modeler 인터페이스에서 사용 가능한 harmonized 필드의 표를 보려면 다음을 수행하십시오.
+Marketing Campaign Analytics 인터페이스에서 사용 가능한 harmonized 필드의 표를 보려면 다음을 수행하십시오.
 
 1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
@@ -91,7 +97,7 @@ Mix Modeler 인터페이스에서 사용 가능한 harmonized 필드의 표를 �
 
 ### 조화로운 필드 추가
 
-조화롭게 구성된 필드를 추가하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행합니다.
+조화롭게 구성된 필드를 추가하려면 Marketing Campaign Analytics의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행합니다.
 
 1. ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;을(를) 선택합니다.
 
@@ -117,7 +123,7 @@ Mix Modeler 인터페이스에서 사용 가능한 harmonized 필드의 표를 �
 
 이전에 만든 통합 필드만 편집할 수 있습니다(소유자는 클라이언트임). 전역 조화 필드를 편집할 수 없습니다.
 
-조화로운 필드를 편집하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
+조화로운 필드를 편집하려면 Marketing Campaign Analytics의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
 
 1. 편집할 조화로운 필드를 선택합니다. 예: **[!UICONTROL Region]**.
 
@@ -131,7 +137,7 @@ Mix Modeler 인터페이스에서 사용 가능한 harmonized 필드의 표를 �
 
 이전에 만든 조화로운 필드만 삭제할 수 있습니다(소유자는 클라이언트임). 전역 조화된 필드는 삭제할 수 없습니다.
 
-조화롭게 구현된 필드를 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
+조화롭게 구현된 필드를 삭제하려면 Marketing Campaign Analytics의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
 
 1. 삭제할 조화된 필드를 선택합니다(예: **[!UICONTROL Region]**).
 

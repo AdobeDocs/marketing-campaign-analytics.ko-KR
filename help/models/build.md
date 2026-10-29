@@ -1,6 +1,6 @@
 ---
-title: Mix Modeler에서 모델 구축
-description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법을 포함하여 Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다. 전환 목표, 접점, 광고 및 일정 등.
+title: Marketing Campaign Analytics에서 모델 구축
+description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법을 포함하여 Marketing Campaign Analytics에서 모델을 구축하는 방법에 대해 알아봅니다. 전환 목표, 접점, 광고 및 일정 등.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
@@ -32,22 +32,24 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d83e095cdcd2954b5c6cc5f4b3f32a26cf27ed9a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 9%
+source-wordcount: '1903'
+ht-degree: 7%
 ---
 # 모델 구축
 
+{{mm-mca-rebranding}}
+
 사용자 지정 AI 기반 모델을 구축하기 위해 인터페이스는 단계별 가이드 모델 구성 플로우를 제공합니다.
 
-[!DNL Mix Modeler]의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 **[!UICONTROL Open model canvas]**&#x200B;을(를) 선택합니다.
+[!DNL Marketing Campaign Analytics]의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 **[!UICONTROL Open model canvas]**&#x200B;을(를) 선택합니다.
 
 ## 설정
 
 **[!UICONTROL Setup]** 단계에서 이름 및 설명을 정의합니다.
 
-1. **[!UICONTROL Name]** 모델(예: `Demo model`)을 입력하십시오. **[!UICONTROL Description]**(예: `Demo model to explore AI features of Mix Modeler`)을(를) 입력하십시오.
+1. **[!UICONTROL Name]** 모델(예: `Demo model`)을 입력하십시오. **[!UICONTROL Description]**(예: `Demo model to explore AI features of Marketing Campaign Analytics`)을(를) 입력하십시오.
 
    ![모델 이름 및 설명](/help/assets/model-name-description.png)
 
@@ -61,7 +63,12 @@ ht-degree: 9%
 >abstract="마케팅 접점은 마케팅 투자가 수치적 또는 수익 기반 전환에 미치는 영향을 평가하는 데 사용되는 수신자, 개인 및 쿠키 수준의 마케팅 이벤트입니다.<br/><br/>데이터가 겹치는 접점을 사용하여 모델을 설정할 수 없으며 지출이 있는 접점이 하나 이상 있어야 합니다."
 
 
-**[!UICONTROL Configure]** 단계에서 모델을 구성합니다. 구성에는 전환 목표, 마케팅 접점, 적격 데이터 채우기, 외부 및 내부 요인 등의 정의가 포함됩니다.
+**[!UICONTROL Configure]** 단계에서 모델을 구성합니다. 구성에는 전체 funnel 모델링, 전환 목표 정의, 마케팅 접점, 적격 데이터 채우기, 외부 및 내부 요소 등이 포함됩니다.
+
+1. **[!UICONTROL Full funnel model]** 섹션에서 [전체 funnel 모델링](./overview.md#full-funnel-modeling)을(를) 활성화하려면 다음을 수행합니다.
+
+   1. **[!UICONTROL Enable full funnel modeling]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL Upper funnel conversion]** 드롭다운 메뉴에서 상위 전환을 선택합니다.
 
 1. **[!UICONTROL Conversion goal]** 섹션에서:
 
@@ -78,7 +85,7 @@ ht-degree: 9%
 
    ![모델 - 마케팅 접점 단계](/help/assets/model-marketing-touchpoint-step.png)
 
-   1. **[!UICONTROL Touchpoint include]** 드롭다운 메뉴에서 하나 이상의 마케팅 터치포인트를 선택합니다.
+   1. **[!UICONTROL Touchpoint include]** 드롭다운 메뉴에서 하나 이상의 마케팅 접점을 선택합니다.
 
       * ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하여 터치포인트를 제거할 수 있습니다.
       * **[!UICONTROL Clear all]**&#x200B;을(를) 사용하여 모든 터치포인트를 제거할 수 있습니다.
@@ -115,21 +122,41 @@ ht-degree: 9%
 
    * 적격 데이터 모집단에 대해 보다 복잡한 정의를 만들려면 컨테이너 사이에 **And** 및 **Or**&#x200B;을(를) 선택하십시오.
 
-1. **[!UICONTROL Factor dataset]** 섹션에서 내부 또는 외부 요소가 포함된 데이터 세트를 관리할 수 있습니다.
-
-   ![모델 - 요소 데이터 집합 단계](../assets/model-factors-dataset-step.png)
+1. **[!UICONTROL Factor]** 섹션에서 내부 또는 외부 요소가 포함된 데이터 세트를 관리할 수 있습니다.
 
    * 요소 데이터 집합을 추가하려면 **[!UICONTROL Add Factor]**&#x200B;을(를) 선택하십시오. 모델에 최대 30개의 요소를 추가할 수 있습니다.
 
+     ![모델 - 요소 단계](../assets/model-factors-dataset-step.png)
+
      1. 드롭다운 메뉴에서 **[!UICONTROL Factor dataset]**&#x200B;을(를) 선택합니다. 사용 가능한 계수는 [데이터 집합 규칙](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)에서 조화된 필드를 정의한 계수입니다.
+
         선택한 데이터 집합에 따라 **[!UICONTROL Factor type]**&#x200B;은(는) **[!UICONTROL Internal]** 또는 **[!UICONTROL External]**&#x200B;입니다.
 
      1. 드롭다운 메뉴에서 **[!UICONTROL Impact on conversion]**&#x200B;을(를) 선택합니다. 사용 가능한 옵션은 **[!UICONTROL Auto]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**&#x200B;입니다. 기본 옵션은 **[!UICONTROL Auto]**&#x200B;이며, 이를 통해 모델이 계수 데이터 세트의 영향을 결정할 수 있습니다.
 
    * 요소 데이터 집합을 삭제하려면 ![CrossSize200](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
+   * 모델이 [전체 funnel 모델링](./overview.md#full-funnel-modeling)에 대해 활성화되어 있는 경우 모델에 추가한 요소에 대해 인과 관계 및 요인 인과 관계를 정의해야 합니다.
+
+     ![모델 - 요소 단계 funnel](../assets/model-factors-dataset-step-funnel.png)
+
+     * 인과 관계를 정의하려면 **[!UICONTROL Causal relationship]**&#x200B;의 테이블에서 각 채널(**[!UICONTROL Source]**)에 대해 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택합니다. 상위 전환 KPI(**[!UICONTROL Full funnel modeling]** 섹션에서 **[!UICONTROL Upper funnel conversion]**(으)로 선택됨)와 하위 전환 KPI(**[!UICONTROL Conversion goal]** 섹션에서 **[!UICONTROL Conversion]**(으)로 선택됨)가 채널의 영향을 받는지 여부입니다.
+
+       상위 전환 KPI와 하위 전환 KPI에 대해 열 머리글을 ![SelectBox](/help/assets/icons/SelectBox.svg)하여 모든 채널이 KPI에 영향을 주도록 빠르게 정의할 수 있습니다.
+
+     * 요소를 정의한 경우 요소 인과 관계를 정의합니다. 인과 관계를 정의하려면 **[!UICONTROL Factor causal relationships]** 테이블에서 각 요소(**[!UICONTROL Factor]**)에 대해 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택합니다. 상위 전환 KPI(**[!UICONTROL Full funnel modeling]** 섹션에서 **[!UICONTROL Upper funnel conversion]**(으)로 선택됨) 및 하위 전환 KPI(**[!UICONTROL Conversion goal]** 섹션에서 **[!UICONTROL Conversion]**(으)로 선택됨)가 요소에 영향을 받는지 여부입니다.
+
+       상위 전환 KPI와 하위 전환 KPI에 대해 열 머리글을 ![SelectBox](/help/assets/icons/SelectBox.svg)하여 모든 요소가 KPI에 영향을 주도록 빠르게 정의할 수 있습니다.
+
 
 1. 모델에 대한 전환 확인 기간을 정의하려면 **[!UICONTROL Define lookback window]** 섹션에서 **[!UICONTROL Give contribution credit to touchpoints occurring within]**.. **[!UICONTROL weeks prior to the conversion]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오.
+
+   모델이 [전체 funnel 모델링](./overview.md#full-funnel-modeling)에 대해 활성화된 경우:
+
+   * 하위 funnel에 대한 전환 확인 기간을 정의하려면 **[!UICONTROL Define lookback window]** 섹션에서 **[!UICONTROL Lower funnel]**&#x200B;에 대해 **[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오. **[!UICONTROL weeks prior to the conversion]**.
+
+   * 상위 funnel에 대한 전환 확인 기간을 정의하려면 **[!UICONTROL Define lookback window]** 섹션에서 **[!UICONTROL Upper funnel]**&#x200B;에 대해 **[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오. **[!UICONTROL weeks prior to the upper funnel conversion]**.
+
 
 1. 모델에 대한 교육 기간을 정의하려면 **[!UICONTROL Define training window]**&#x200B;에서 채점 전환을 시작할 위치를 선택합니다.
 
@@ -137,7 +164,7 @@ ht-degree: 9%
 
    다음 중 하나를 선택할 수 있습니다.
 
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
+   * **[!UICONTROL Have Marketing Campaign Analytics select a helpful training window]** 및
 
    * **[!UICONTROL Manually input a training window]**. 선택한 경우 **[!UICONTROL Include events the following years prior to a conversion]**&#x200B;의 연도 수를 정의합니다.
 
@@ -159,7 +186,14 @@ ht-degree: 9%
 
 **[!UICONTROL Spend share]** 섹션에서:
 
-* 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다. 이 설정은 특히 다음 시나리오에서 권장됩니다.
+* 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다.
+
+  모델이 [전체 funnel 모델링](./overview.md#full-funnel-modeling)에 대해 활성화된 경우:
+
+  * 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share for the lower funnel]**&#x200B;을(를) 활성화합니다.
+  * 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share for the upper funnel]**&#x200B;을(를) 활성화합니다.
+
+* 이 설정은 특히 다음 시나리오에서 권장됩니다.
   * 채널에 충분한 관찰이 없습니다(예: 지출 빈도가 낮거나 노출 횟수 또는 클릭 수).
   * 데이터가 희박할 수 있는 스파이크하지만 일반적이고 잠재적으로 비용이 높은 미디어(일부 브랜드의 TV 등)를 모델링합니다.
 
@@ -167,6 +201,8 @@ ht-degree: 9%
   >
   >일회성 투자(예: 슈퍼볼 광고)의 경우 지출 점유율에 의존하지 않고 해당 데이터를 요소로 통합합니다.
   >
+
+
 
 ### MTA
 
@@ -182,6 +218,10 @@ ht-degree: 9%
 ![모델 - 사전 지식](/help/assets/model-prior-knowledge-step.png)
 
 1. 기본적으로 **[!UICONTROL Absolute values]**&#x200B;인 **[!UICONTROL Rule type]**&#x200B;을(를) 선택하십시오.
+
+1. 모델이 [전체 funnel 모델링](./overview.md#full-funnel-modeling)에 대해 활성화된 경우:
+
+   * 사전 지식에 사용할 funnel 지표로 **[!UICONTROL Lower funnel]** 또는 **[!UICONTROL Select metric]**&#x200B;의 **[!UICONTROL Upper funnel]**&#x200B;을(를) 선택하십시오.
 
 1. **[!UICONTROL Contribution proportion]** 열을 사용하여 **[!UICONTROL Name]** 아래에 나열된 채널에 대한 기여도 백분율을 지정하십시오.
 
@@ -201,6 +241,8 @@ ht-degree: 9%
 ![채널 adstock](/help/assets/channel-ad-stock.png)
 
 채널 adstock을 구성하려면:
+
+* 모델이 [전체 funnel 모델링](./overview.md#full-funnel-modeling)에 대해 활성화된 경우 **[!UICONTROL Select metric]**&#x200B;에서 채널 adstock에 사용할 funnel 지표로 **[!UICONTROL Lower funnel]** 또는 **[!UICONTROL Upper funnel]**&#x200B;을(를) 선택하십시오.
 
 * 각 채널(**[!UICONTROL Name]**)에 대해 **[!UICONTROL Lag (weeks)]**, **[!UICONTROL Min Lookback (weeks)]** 및 **[!UICONTROL Max Lookback (weeks)]** 값을 정의하십시오. 각 값에 대해:
 
@@ -231,7 +273,7 @@ ht-degree: 9%
 
    * **[!UICONTROL Daily]**: 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하여 시간을 정의합니다.
    * **[!UICONTROL Weekly]**: 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하여 시간을 정의합니다.
-   * **[!UICONTROL Monthly]**: 모든 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하여 시간을 정의합니다.
+   * **[!UICONTROL Monthly]**: [모든 시간에 실행] 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하여 시간을 정의합니다.
 
 1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
 

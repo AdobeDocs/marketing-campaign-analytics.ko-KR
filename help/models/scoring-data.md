@@ -1,29 +1,39 @@
 ---
 title: 채점 데이터 사용
-description: Mix Modeler에서 모델의 채점 데이터가 어떻게 지속되는지 알아봅니다.
+description: Marketing Campaign Analytics에서 모델의 채점 데이터가 어떻게 지속되는지 알아봅니다.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
 autotag-review: '2026-05-01T08:58:54.964Z'
+TQID: 'https://experienceleague.adobe.com/WV57Ccr2rGydmuN8fKgysOXoFOufY-LlzLxdMNbBb-w'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: cb40363e-1205-4921-971c-9ee6bdb18329
+    internal-label: Scoring data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Metadata
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 684
+source-wordcount: '685'
 ht-degree: 11%
-
 ---
-
 # 채점 데이터 사용
+
+{{mm-mca-rebranding}}
 
 모델에 대한 채점을 수행하는 과정에서 채점 데이터는 Experience Platform의 데이터 세트 내에서 유지됩니다. 모델을 만드는 동안 다중 터치 속성을 활성화하면 추가 이벤트 점수 데이터가 Experience Platform의 데이터 세트 내에서 유지됩니다.
 

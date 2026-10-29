@@ -3,25 +3,36 @@ title: 교육 및 점수 모델
 description: 모델을 교육하고 평가하는 방법을 알아봅니다.
 feature: Models
 exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
-TQID: https://experienceleague.adobe.com/yHi6d-zZeT5fpedJeqNAj-Q01NlEK-y3MybA5p54DhE
 autotag-review: '2026-05-01T09:03:34.273Z'
+TQID: 'https://experienceleague.adobe.com/mvt9xE7FRLCEa9mD52LgW6bIJfHJMUd1cC4ipuebAhQ'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: cb40363e-1205-4921-971c-9ee6bdb18329
+    internal-label: Scoring data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 374
-ht-degree: 0%
-
+source-wordcount: '368'
+ht-degree: 2%
 ---
-
 # 교육 및 점수 모델
+
+{{mm-mca-rebranding}}
 
 모델을 [구축](/help/models/build.md)하면 모델이 자동으로 학습되고 점수가 매겨집니다. 모델을 수동으로 재교육하거나 재교육할 수 있습니다.
 
@@ -39,7 +50,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Train model with last 2 years of marketing data]** 또는
    * **[!UICONTROL Train model using specific date range of data]**.
-날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다. 최소 1년의 데이터 범위를 선택해야 합니다.
+     날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다. 최소 1년의 데이터 범위를 선택해야 합니다.
 
    ![모델 다시 교육](../assets/retrain-model.png)
 
@@ -69,7 +80,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**, 새 마케팅 데이터를 사용하여 점진적으로 모델에 점수를 매기거나
    * **[!UICONTROL Score specific date range of marketing data]**&#x200B;을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
-날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다.
+     날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다.
 
    ![모델 다시 검색](../assets/rescore-model.png)
 

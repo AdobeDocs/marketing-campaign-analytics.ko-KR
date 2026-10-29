@@ -1,28 +1,34 @@
 ---
 title: 전환
-description: Mix Modeler에서 데이터를 조화롭게 만드는 과정의 일부로 사용할 전환을 만드는 방법을 알아봅니다.
+description: Marketing Campaign Analytics에서 데이터를 조화롭게 만드는 과정의 일부로 사용할 전환을 만드는 방법을 알아봅니다.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
+autotag-review: '2026-05-01T09:15:50.061Z'
+TQID: 'https://experienceleague.adobe.com/5m8Z9cc9d42019sNXkstXDn6cOo-2yzzQWCw0VG1YrY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:15:50.061Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 10%
-
+source-wordcount: '454'
+ht-degree: 9%
 ---
-
 # 전환 {#conversions}
 
+{{mm-mca-rebranding}}
+
+{{mm-mca-rebranding}}
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
@@ -36,7 +42,7 @@ ht-degree: 10%
 
 ## 전환 관리
 
-Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 다음을 수행하십시오.
+Marketing Campaign Analytics 인터페이스에서 사용 가능한 전환의 표를 보려면 다음을 수행하십시오.
 
 1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
@@ -48,15 +54,15 @@ Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 �
 | --- | ---|
 | 이름 | 전환의 이름입니다. |
 | 수입 | 전환으로 인한 매출을 계산하는 데 사용할 조정된 데이터 지표입니다. |
-| 전환 지표 | 분석을 위한 전환 지표로 사용할 조정된 데이터 지표입니다. |
-| 카테고리 | 전환의 전환 카테고리입니다. |
+| 전환 지표 | 분석을 위한 전환 지표로 사용할 조정된 데이터 지표입니다. 주문, 매출, 구독 수 등과 같은 기본 숫자 비즈니스 결과를 나타냅니다. |
+| 카테고리 | 적용할 전환 규칙. 여기서 전환 차원은 전환 유형을 분류하는 데 사용됩니다. |
 | 생성일 | 변환 생성 날짜 및 시간입니다. |
 | 마지막 수정일 | 전환을 마지막으로 수정한 날짜 및 시간입니다. |
 
 
 ## 전환 추가
 
-전환을 추가하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** 인터페이스에서 다음을 수행합니다.
+전환을 추가하려면 Marketing Campaign Analytics의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** 인터페이스에서 다음을 수행합니다.
 
 1. ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**&#x200B;을(를) 선택합니다.
 

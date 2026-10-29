@@ -1,33 +1,44 @@
 ---
 title: 데이터 수집 개요
-description: Mix Modeler에 데이터를 수집하는 방법에 대해 알아봅니다.
+description: Marketing Campaign Analytics에 데이터를 수집하는 방법에 대해 알아봅니다.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+autotag-review: '2026-05-01T09:11:34.506Z'
+TQID: 'https://experienceleague.adobe.com/bCjm1mvGkSSpD6oke4baWwZftqjyjv4u-1sBDtOYsJY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ad7101f7-ae92-401b-a25a-d3060d42989d
+    internal-label: Aggregate datasets
   - id: d1167c89-f64a-42ca-ac95-1d91b7790df2
+    internal-label: Summary datasets
   - id: ee1bf083-e090-4def-936b-c111d29f42d0
+    internal-label: Ingest data
   - id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+    internal-label: Event datasets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:11:34.506Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 14%
-
+source-wordcount: '592'
+ht-degree: 17%
 ---
-
 # 데이터 수집 개요
 
-Mix Modeler은 다양한 벽 정원의 이벤트 수준 데이터, 집계 또는 요약 마케팅 노력 데이터와 함께 작동합니다. 오프라인 광고, 내부 요인 또는 외부 요인과 같은 다른 소스의 집계 또는 요약 데이터와 함께.
+{{mm-mca-rebranding}}
+
+Marketing Campaign Analytics은 다양한 벽 정원의 이벤트 수준 데이터, 집계 또는 요약 마케팅 노력 데이터와 함께 작동합니다. 오프라인 광고, 내부 요인 또는 외부 요인과 같은 다른 소스의 집계 또는 요약 데이터와 함께.
 
 고객은 XDM ExperienceEvent 또는 XDM 요약 지표를 기본 클래스로 사용하여 스키마를 기반으로 하는 데이터 세트로 Experience Platform에 수집되는 모든 종류의 데이터를 사용할 수 있습니다.
 
@@ -38,11 +49,11 @@ Mix Modeler은 다양한 벽 정원의 이벤트 수준 데이터, 집계 또는
 * 벽으로 둘러싸인 정원(예: Facebook, YouTube), 트래픽 소스 또는 오프라인 광고 데이터의 집계 또는 요약 데이터.
 * 모델 구축에 유용한 내부 또는 외부 요소를 포함하는 비마케팅 집계 또는 요약 데이터.
 
-Experience Platform에서 지원하는 모든 종류의 메커니즘을 사용하여 경험 이벤트 수준, 총 마케팅 활동 데이터 및 다른 소스의 데이터를 수집할 수 있습니다. Experience Platform SDK, API, 소스 커넥터, 스트리밍 및 일괄 처리 수집 등. Adobe Mix Modeler에서 사용하기 위해 Experience Platform에서 데이터를 수집하는 방법에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)를 참조하십시오.
+Experience Platform에서 지원하는 모든 종류의 메커니즘을 사용하여 경험 이벤트 수준, 총 마케팅 활동 데이터 및 다른 소스의 데이터를 수집할 수 있습니다. Experience Platform SDK, API, 소스 커넥터, 스트리밍 및 일괄 처리 수집 등. Adobe Marketing Campaign Analytics에서 사용하기 위해 Experience Platform에서 데이터를 수집하는 방법에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)를 참조하십시오.
 
 ## 지침
 
-Mix Modeler에서 사용할 수 있도록 Experience Platform에 데이터를 수집하려면 다음 지침을 따르십시오.
+Marketing Campaign Analytics에서 사용할 수 있도록 Experience Platform에 데이터를 수집하려면 다음 지침을 따르십시오.
 
 * 데이터 세트에 추가되는 증분 데이터에는 겹치지 않아야 합니다.
 * 단일 소스의 모든 데이터는 세부기간이 동일해야 합니다.
@@ -52,7 +63,7 @@ Mix Modeler에서 사용할 수 있도록 Experience Platform에 데이터를 �
 
 ## 예
 
-아래에서는 보다 표준적인 경험 이벤트 데이터 외에 Mix Modeler에서 일반적으로 사용되는 데이터의 몇 가지 예를 살펴봅니다.
+아래에서는 보다 표준적인 경험 이벤트 데이터 외에 Marketing Campaign Analytics에서 일반적으로 사용되는 데이터의 몇 가지 예를 살펴봅니다.
 
 +++ 마케팅 활동 집계 데이터
 
@@ -94,12 +105,12 @@ Mix Modeler에서 사용할 수 있도록 Experience Platform에 데이터를 �
 
 +++
 
-Mix Modeler의 데이터로 작업하려면 데이터 세트에 수집된 데이터와 Experience Platform의 스키마를 모델로 해야 합니다. Mix Modeler 인터페이스를 사용하면 Experience Platform 스키마 및 데이터 세트 UI에 쉽게 액세스할 수 있습니다.
+Marketing Campaign Analytics의 데이터로 작업하려면 데이터 세트에 수집된 데이터와 Experience Platform의 스키마를 모델로 해야 합니다. Marketing Campaign Analytics 인터페이스를 사용하면 Experience Platform 스키마 및 데이터 세트 UI에 쉽게 액세스할 수 있습니다.
 
 
 ## 유효성 검사
 
-Mix Modeler에서 데이터를 제대로 사용할 수 있는지 확인하려면 다음을 수행할 수 있습니다.
+Marketing Campaign Analytics에서 데이터를 제대로 사용할 수 있는지 확인하려면 다음을 수행할 수 있습니다.
 
 * [개요](/help/overview.md)에서 시각화를 사용합니다.
 * Harmonized 데이터 세트의 [Harmonized data](/help/harmonize-data/overview.md)에서 데이터를 다운로드하고 검사합니다.

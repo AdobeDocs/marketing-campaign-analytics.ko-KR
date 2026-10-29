@@ -1,33 +1,45 @@
 ---
 title: 플랜 개요
-description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
+description: Marketing Campaign Analytics에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
+TQID: 'https://experienceleague.adobe.com/OZjW5A4DP1raHwQgA5RSrbyFAwEp5gKPrzezj59nnFA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '683'
 ht-degree: 0%
-
 ---
-
 # 플랜 개요
 
-Mix Modeler의 플랜을 사용하면 비즈니스 단위 및 채널별로 예산을 할당할 수 있습니다. 계획 기능은 조정된 데이터를 기반으로 훈련된 모델의 결과와 통합되어 있습니다.
+{{mm-mca-rebranding}}
+
+Marketing Campaign Analytics의 플랜을 사용하면 비즈니스 단위 및 채널별로 예산을 할당할 수 있습니다. 계획 기능은 조정된 데이터를 기반으로 훈련된 모델의 결과와 통합되어 있습니다.
 
 이 계획에서는 주어진 기간 동안 마케팅 관련 프로젝트에 소비하려는 재량적 투자(예: 예산)에 대해 간략히 설명합니다. 이러한 투자는 일반적인 KPI(예: 주문, 매출)를 활용합니다. 플랜에는 유료 광고, 스폰서 웹 콘텐츠, 이벤트 등의 채널 비용이 포함될 수 있습니다.
 
@@ -48,12 +60,12 @@ Mix Modeler의 플랜을 사용하면 비즈니스 단위 및 채널별로 예�
 
 ## 계획 수립
 
-계획을 수립하려면 Mix Modeler 계획 생성 마법사를 사용하십시오. 자세한 내용은 [계획 수립](build.md)을 참조하세요.
+계획을 수립하려면 Marketing Campaign Analytics 계획 생성 마법사를 사용하십시오. 자세한 내용은 [계획 수립](build.md)을 참조하세요.
 
 
 ## 계획 관리
 
-Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음을 수행합니다.
+Marketing Campaign Analytics 인터페이스에서 현재 계획의 테이블을 보려면 다음을 수행합니다.
 
 1. 왼쪽 레일에서 ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]**&#x200B;을(를) 선택합니다.
 
@@ -105,10 +117,10 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 - 최초 계획의 상세내역(예: 설명, 예산 등)이 복사됩니다.
 - 최초 계획의 예산 제한조건이 새로 생성된 계획에 복사됩니다.
 - 복사된 계획의 기반으로 다른 모델을 선택할 수 있는 옵션이 있습니다.
-   - 복사된 계획에는 존재하지만 새로 선택된 모델에는 존재하지 않는 접점 또는 채널의 경우, 이러한 접점 또는 채널에 대한 모든 제한이 계획에서 제거됩니다.
-   - 복사된 계획에는 존재하지 않지만 새로 선택된 모델에는 존재하는 접점 또는 채널의 경우 제한은 다음과 같이 설정됩니다.
-      - 최소값은 `0`이고,
-      - 계획 플라이트 범위 예산에 따른 최대값입니다.
+  - 복사된 계획에는 존재하지만 새로 선택된 모델에는 존재하지 않는 접점 또는 채널의 경우, 이러한 접점 또는 채널에 대한 모든 제한이 계획에서 제거됩니다.
+  - 복사된 계획에는 존재하지 않지만 새로 선택된 모델에는 존재하는 접점 또는 채널의 경우 제한은 다음과 같이 설정됩니다.
+    - 최소값은 `0`이고,
+    - 계획 플라이트 범위 예산에 따른 최대값입니다.
 
 
 
