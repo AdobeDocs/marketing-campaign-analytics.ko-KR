@@ -42,7 +42,7 @@ Experience Platform에서 수집하고 Marketing Campaign Analytics에서 사용
 
 1. **[!UICONTROL SETUP]** 아래의 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**&#x200B;을(를) 선택하십시오.
 
-자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)를 참조하십시오.
+자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >
