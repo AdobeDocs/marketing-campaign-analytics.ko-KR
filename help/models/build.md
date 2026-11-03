@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
+source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 8%
@@ -280,11 +280,12 @@ ht-degree: 8%
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Customer Journey Analytics 활성화"
 >abstract="Customer Journey Analytics에서 보고 및 분석에 점수 데이터를 사용할 수 있도록 하려면 이 설정을 활성화합니다. 이 설정을 활성화하면 모델을 삭제하여 이 설정을 비활성화해야 합니다."
+
+{{release-limited-testing-section}}
 
 Customer Journey Analytics에 대한 권한이 있고 특정 샌드박스에서 Marketing Campaign Analytics에 대해 하나 이상의 [데이터 세트 규칙](/help/harmonize-data/dataset-rules.md)을(를) 만든 경우:
 
