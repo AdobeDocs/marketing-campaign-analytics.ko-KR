@@ -304,7 +304,7 @@ Customer Journey Analytics [작업 영역 프로젝트](https://experienceleague
 
 1. **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**&#x200B;을(를) 선택합니다.
 1. 전용 **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;을(를) 프로젝트에 사용할 데이터 보기로 선택하십시오.
-1. **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [템플릿](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates)을(를) 선택하십시오.
+1. **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [템플릿](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates)을(를) 선택하십시오.
    * 미리 보기를 보려면 **[!UICONTROL Preview]**&#x200B;을(를) 선택하십시오.
 
      ![Marketing Campaign Analytics 템플릿 미리 보기](/help/assets/model-cja-enable-template.png)
