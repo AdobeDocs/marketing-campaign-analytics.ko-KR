@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: c75532d37a87f39cb61eabd58333b39895cf3a69
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1329'
 ht-degree: 0%
 ---
 # 모델 개요
@@ -49,7 +49,7 @@ Marketing Campaign Analytics의 모델 기능을 사용하면 비즈니스 목�
 
 이 모델은 애플리케이션 워크플로의 일부로 만드는 통합 데이터를 기반으로 합니다.
 
-Marketing Campaign Analytics의 모델은 마케터의 투자를 기반으로 지정된 결과를 측정하고 예측하기 위해 사용되는 머신 러닝 모델입니다. 마케팅 접점 및 요약 수준 데이터를 입력으로 사용할 수 있습니다. Marketing Campaign Analytics을 사용하면 매출, 판매 수량, 리드 등과 같은 다양한 변수, 차원 및 결과 세트를 기반으로 모델의 변형을 만들 수 있습니다.
+Marketing Campaign Analytics의 모델은 마케팅 투자를 기반으로 지정된 결과를 측정하고 예측하기 위해 사용되는 머신 러닝 모델입니다. 마케팅 접점 및 요약 수준 데이터를 입력으로 사용할 수 있습니다. Marketing Campaign Analytics을 사용하면 매출, 판매 수량, 리드 등과 같은 다양한 변수, 차원 및 결과 세트를 기반으로 모델의 변형을 만들 수 있습니다.
 
 모델은 다음을 필요로 합니다.
 
@@ -65,7 +65,7 @@ Marketing Campaign Analytics의 모델은 마케터의 투자를 기반으로 �
 * 과거 관련자 경험, 증분 테스트, 기타 모델 등 다른 소스의 마케팅 기여에 대한 사전 지식.
 * 마케팅 데이터가 희소할 때 상대 지출 공유를 프록시로 사용하는 지출 공유.
 
-모형을 처음 만들었을 때, 그 만들기는 곧바로 훈련과 채점 과정을 시작한다. 초기 교육 및 채점 실행이 완료되면 모델 인사이트를 검토할 수 있습니다. 모델은 이후 재학습될 수 있습니다. 또한 모델을 수동으로 다시 검색해야 하는 모델에 데이터를 추가할 수 있습니다. 재교육 및 재검사는 새로운 발견과 정보가 나타나고 비즈니스 목표에 가장 적합한 모델 적합성을 얻기 위해 조정이 필요하므로 반복적인 프로세스입니다.
+모형을 처음 만들었을 때, 그 만들기는 곧바로 훈련과 채점 과정을 시작한다. 초기 교육 및 채점 실행이 완료되면 모델 인사이트를 검토할 수 있습니다. 모델은 나중에 다시 교육됩니다. 또한 모델에 데이터를 추가할 때 모델에 대한 수동 복원이 필요합니다. 재교육 및 재검사는 새로운 발견과 정보가 나타나고 비즈니스 목표에 가장 적합한 모델 적합성을 얻기 위해 조정이 필요하므로 반복적인 프로세스입니다.
 
 ## 전체 funnel 모델링
 
@@ -81,7 +81,7 @@ Marketing Campaign Analytics의 모델은 마케터의 투자를 기반으로 �
 상위 funnel 전술은 전환 집중 MMM 모델에서 더 적은 크레딧을 받습니다. 전체 funnel 모델링을 통해 다음을 이해할 수 있습니다.
 
 * 미디어 및 마케팅 전략이 funnel 상위 목표에 기여한 사항
-* 어떤 미디어 및 마케팅 전략이 전환 목표에 간접 영향을 미쳤습니다. 상위 funnel 모델 가중치는 적절한 미디어 및 마케팅 전략에 더 높은 가중치를 제공하기 위해 하위 funnel 모델에 대한 입력입니다.
+* 어떤 미디어 및 마케팅 전략이 전환 목표에 간접 영향을 미쳤습니다. 상위 funnel 모델 가중치는 적절한 미디어 및 마케팅 전략에 더 높은 가중치를 부여하기 위해 하위 funnel 모델에 대한 입력입니다.
 
 ## 모델 구축
 
@@ -108,7 +108,7 @@ Marketing Campaign Analytics 인터페이스에서 현재 모델의 표를 보�
 
    오름차순 ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) 또는 내림차순 ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg) 순서로 열의 테이블을 정렬하려면 열의 제목을 선택합니다.
 
-   **[!UICONTROL Name]** 열을 정렬하거나 크기를 조정하려면 **[!UICONTROL Name]** ![V자형 화살표](/help/assets/icons/ChevronDown.svg)를 선택합니다. 컨텍스트 메뉴에서 **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** 또는 **[!UICONTROL Resize column]**&#x200B;을(를) 선택합니다. 또는 열 구분 기호 위로 마우스를 가져가 **[!UICONTROL Name]** 열의 크기를 조정할 수 있습니다.
+   **[!UICONTROL Name]** 열을 정렬하거나 크기를 조정하려면 **[!UICONTROL Name]** ![V자형 화살표](/help/assets/icons/ChevronDown.svg)를 선택합니다. 컨텍스트 메뉴에서 **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** 또는 **[!UICONTROL Resize column]**&#x200B;을(를) 선택합니다. **[!UICONTROL Name]** 열의 크기를 조정하려면 열 구분 기호 위로 마우스를 가져갑니다.
 
    모델의 보고된 상태는 모델이 라이프사이클 내에 있는 위치에 따라 다릅니다. 예를 들어 모델이 생성되었는지, (재)트레이닝이 성공했는지 또는 (재)채점이 성공했는지 여부에 상관없이 표시됩니다.
 
@@ -170,7 +170,7 @@ Marketing Campaign Analytics 인터페이스에서 현재 모델의 표를 보�
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-원래 모델 이름에 **[!UICONTROL (Copy)] (_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
+원래 모델 이름에 **[!UICONTROL (Copy)](_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
 
 ### 편집
 
@@ -195,6 +195,12 @@ Marketing Campaign Analytics 인터페이스에서 현재 모델의 표를 보�
         * **[!UICONTROL Monthly]**: [모든 시간에 실행] 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `10:00 am`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하여 시간을 정의합니다.
 
      1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
+
+   * 전체 funnel 모델이 활성화되면 전체 funnel 속성 활성화 가 비활성화되어 표시됩니다. 이 설정은 수정할 수 없습니다.
+
+   * [Customer Journey Analytics에서 점수 데이터를 사용할 수 있도록 설정](build.md#customer-journey-analytics)하려면 **[!UICONTROL Enable scores for Customer Journey Analytics]**&#x200B;을(를) 선택하십시오.
+
+     Customer Journey Analytics에 대한 점수가 활성화되면 모델을 삭제하지 않는 한 이 설정을 비활성화할 수 없습니다.
 
    * **[!UICONTROL Granular Insights Reporting Fields]** 섹션에서 [세부 인사이트 보고 필드](/help/models/build.md#granular-insights-reporting-fields)를 업데이트하려면 다음을 수행하십시오.
      1. **[!UICONTROL _통합 필드 선택_]**&#x200B;에서 **[!UICONTROL Includes]** 아래의 통합 필드를 하나 이상 선택하십시오. 선택한 조화화된 필드가 패널에 추가됩니다.
@@ -228,5 +234,5 @@ Marketing Campaign Analytics 인터페이스에서 현재 모델의 표를 보�
 
 1. 여러 모델을 선택합니다.
 1. 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다.
-1. **[!UICONTROL Delete *x *모델]**&#x200B;확인 대화 상자에서&#x200B;**[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL Delete *x *모델]**확인 대화 상자에서&#x200B;**[!UICONTROL Delete]**을(를) 선택하여 모델을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**을(를) 선택하십시오.
 

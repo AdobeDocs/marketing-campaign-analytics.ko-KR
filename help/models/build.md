@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 803bbfb863f55ef5d043c1e1592acd8c6d4bab44
+source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
 workflow-type: tm+mt
-source-wordcount: '1903'
-ht-degree: 7%
+source-wordcount: '2134'
+ht-degree: 8%
 ---
 # 모델 구축
 
@@ -96,7 +96,7 @@ ht-degree: 7%
    >
    >데이터가 겹치는 터치포인트로 모델을 설정할 수 없으며 지출이 있는 터치포인트가 하나 이상 있어야 합니다.
 
-1. 기본적으로 점수는 사용자의 조화로운 보기에 있는 모든 데이터에 대해 생성됩니다. 모집단의 하위 집합에만 점수를 매기려면 **[!UICONTROL Eligible data population]** 섹션에서 컨테이너를 사용하여 하나 이상의 필터를 정의합니다.
+1. 기본적으로 점수는 사용자의 조화로운 보기에 있는 모든 데이터에 대해 생성됩니다. 모집단의 하위 집합만 채점하려면 **[!UICONTROL Eligible data population]** 섹션에서 컨테이너를 사용하여 하나 이상의 필터를 정의하십시오.
 
    ![모델 - 적격 데이터 채우기](/help/assets/model-eligible-data-population-step.png)
 
@@ -136,20 +136,20 @@ ht-degree: 7%
 
    * 요소 데이터 집합을 삭제하려면 ![CrossSize200](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
-   * 모델이 [전체 funnel 모델링](./overview.md#full-funnel-modeling)에 대해 활성화되어 있는 경우 모델에 추가한 요소에 대해 인과 관계 및 요인 인과 관계를 정의해야 합니다.
+   * 모델이 [전체 funnel 모델링](./overview.md#full-funnel-modeling)에 대해 활성화되어 있는 경우 모델에 추가하는 요소에 대해 인과 관계 및 요인 인과 관계를 정의해야 합니다.
 
      ![모델 - 요소 단계 funnel](../assets/model-factors-dataset-step-funnel.png)
 
-     * 인과 관계를 정의하려면 **[!UICONTROL Causal relationship]**&#x200B;의 테이블에서 각 채널(**[!UICONTROL Source]**)에 대해 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택합니다. 상위 전환 KPI(**[!UICONTROL Full funnel modeling]** 섹션에서 **[!UICONTROL Upper funnel conversion]**(으)로 선택됨)와 하위 전환 KPI(**[!UICONTROL Conversion goal]** 섹션에서 **[!UICONTROL Conversion]**(으)로 선택됨)가 채널의 영향을 받는지 여부입니다.
+     * 인과 관계를 정의하려면 **[!UICONTROL Causal relationship]**&#x200B;의 테이블에서 각 채널(**[!UICONTROL Source]**)에 대해 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택하여 해당 채널이 상위 및 하위 전환 KPI에 영향을 주는지 여부를 나타냅니다.
 
        상위 전환 KPI와 하위 전환 KPI에 대해 열 머리글을 ![SelectBox](/help/assets/icons/SelectBox.svg)하여 모든 채널이 KPI에 영향을 주도록 빠르게 정의할 수 있습니다.
 
-     * 요소를 정의한 경우 요소 인과 관계를 정의합니다. 인과 관계를 정의하려면 **[!UICONTROL Factor causal relationships]** 테이블에서 각 요소(**[!UICONTROL Factor]**)에 대해 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택합니다. 상위 전환 KPI(**[!UICONTROL Full funnel modeling]** 섹션에서 **[!UICONTROL Upper funnel conversion]**(으)로 선택됨) 및 하위 전환 KPI(**[!UICONTROL Conversion goal]** 섹션에서 **[!UICONTROL Conversion]**(으)로 선택됨)가 요소에 영향을 받는지 여부입니다.
+     * 요소를 정의한 경우 요소 인과 관계를 정의합니다. 요소 인과 관계를 정의하려면 **[!UICONTROL Factor causal relationships]** 테이블에서 각 요소(**[!UICONTROL Factor]**)에 대해 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택하여 요소가 상위 및 하위 전환 KPI에 영향을 주는지 여부를 나타냅니다.
 
        상위 전환 KPI와 하위 전환 KPI에 대해 열 머리글을 ![SelectBox](/help/assets/icons/SelectBox.svg)하여 모든 요소가 KPI에 영향을 주도록 빠르게 정의할 수 있습니다.
 
 
-1. 모델에 대한 전환 확인 기간을 정의하려면 **[!UICONTROL Define lookback window]** 섹션에서 **[!UICONTROL Give contribution credit to touchpoints occurring within]**.. **[!UICONTROL weeks prior to the conversion]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오.
+1. 모델 전환 확인 기간을 정의하려면 **[!UICONTROL Define lookback window]** 섹션에서 **[!UICONTROL Give contribution credit to touchpoints occurring within]**.. **[!UICONTROL weeks prior to the conversion]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오.
 
    모델이 [전체 funnel 모델링](./overview.md#full-funnel-modeling)에 대해 활성화된 경우:
 
@@ -158,7 +158,7 @@ ht-degree: 7%
    * 상위 funnel에 대한 전환 확인 기간을 정의하려면 **[!UICONTROL Define lookback window]** 섹션에서 **[!UICONTROL Upper funnel]**&#x200B;에 대해 **[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오. **[!UICONTROL weeks prior to the upper funnel conversion]**.
 
 
-1. 모델에 대한 교육 기간을 정의하려면 **[!UICONTROL Define training window]**&#x200B;에서 채점 전환을 시작할 위치를 선택합니다.
+1. 모델에 대한 교육 기간을 정의하려면 **[!UICONTROL Define training window]**&#x200B;에서 채점 전환을 시작할 위치를 선택하십시오.
 
    ![모델 - 교육 기간 정의](/help/assets/model-define-training-window.png)
 
@@ -195,7 +195,7 @@ ht-degree: 7%
 
 * 이 설정은 특히 다음 시나리오에서 권장됩니다.
   * 채널에 충분한 관찰이 없습니다(예: 지출 빈도가 낮거나 노출 횟수 또는 클릭 수).
-  * 데이터가 희박할 수 있는 스파이크하지만 일반적이고 잠재적으로 비용이 높은 미디어(일부 브랜드의 TV 등)를 모델링합니다.
+  * 데이터가 희박한 스파이크하지만 정기적이고 잠재적으로 비용이 많이 드는 미디어(일부 브랜드의 TV 등)를 모델링합니다.
 
   >[!NOTE]
   >
@@ -234,7 +234,7 @@ ht-degree: 7%
 
 **[!UICONTROL Channel adstock]** 섹션에서 모델에 정의한 각 채널(마케팅 채널)에 대해 개별 adstock 전환 확인(이월 또는 감소 효과)과 지연(지연된 응답 시간)을 정의할 수 있습니다.
 
-이 채널 데이터 세트 구성을 사용하면 서로 다른 마케팅 채널이 시간 경과에 따라 비즈니스 결과에 미치는 영향을 세밀하게 제어할 수 있습니다. 또는 시스템 기본값과 한 가지 크기로 모두 맞춤 구성을 사용할 수 있습니다.
+이 채널 데이터 세트 구성을 사용하면 서로 다른 마케팅 채널이 시간 경과에 따라 비즈니스 결과에 미치는 영향을 세밀하게 제어할 수 있습니다. 또는 시스템 기본값과 표준 구성을 사용할 수 있습니다.
 
 채널 데이터 구성은 채널별 뉘앙스를 캡처하는 데 도움이 됩니다. 예를 들어 TV 캠페인의 장기간 지속되는 영향, 유료 검색의 짧은 기간 동안의 영향 또는 인플루언서 지출과 관찰할 수 있는 전환 간의 지연 등이 있습니다. 광고 전환 확인 및 지연 매개 변수를 실험하여 보다 정확하고 사용자 지정적이며 신뢰할 수 있는 통찰력을 생성합니다. 궁극적으로 채널 데이터 구성을 통해 보다 정확한 예산 배분과 더 나은 비즈니스 의사 결정을 수행할 수 있습니다.
 
@@ -246,7 +246,7 @@ ht-degree: 7%
 
 * 각 채널(**[!UICONTROL Name]**)에 대해 **[!UICONTROL Lag (weeks)]**, **[!UICONTROL Min Lookback (weeks)]** 및 **[!UICONTROL Max Lookback (weeks)]** 값을 정의하십시오. 각 값에 대해:
 
-  * 값을 늘리려면 ![추가](/help/assets/icons/Add.svg)를 사용하고, 값을 줄이려면 ![빼기](/help/assets/icons/Subtract.svg)를 사용하거나 수동으로 값을 입력하십시오.
+  * 값을 늘리려면 ![추가](/help/assets/icons/Add.svg)를 사용하고, 값을 줄이려면 ![빼기](/help/assets/icons/Subtract.svg)를 사용하거나, 값을 수동으로 입력하십시오.
 
   채널당 총 지연 주 수 + 최대 전환 확인 주가 구성된 교육 기간의 1/8로 제한됩니다. 이 상한을 사용하면 모델이 Adstock 효과를 학습하기에 충분한 데이터를 사용할 수 있습니다. 예를 들어 2년 교육 기간의 경우 한 채널에 대한 최대 **[!UICONTROL Lag (weeks)]** 및 **[!UICONTROL Lookback (weeks)]**&#x200B;은(는) 13주입니다. 이 상한은 값을 정의할 때 적용됩니다.
 
@@ -278,6 +278,38 @@ ht-degree: 7%
 1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
 
 
+### Customer Journey Analytics {#cja}
+
+
+>[!CONTEXTUALHELP]
+>id="model_enable_cja"
+>title="Customer Journey Analytics 활성화"
+>abstract="Customer Journey Analytics에서 보고 및 분석에 점수 데이터를 사용할 수 있도록 하려면 이 설정을 활성화합니다. 이 설정을 활성화하면 모델을 삭제하여 이 설정을 비활성화해야 합니다."
+
+Customer Journey Analytics에 대한 권한이 있고 특정 샌드박스에서 Marketing Campaign Analytics에 대해 하나 이상의 [데이터 세트 규칙](/help/harmonize-data/dataset-rules.md)을(를) 만든 경우:
+
+* Experience Platform 샌드박스에 두 개의 전용 Marketing Campaign Analytics 데이터 세트가 생성됩니다.
+* 전용 Marketing Campaign Analytics 데이터 세트를 포함하는 **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_샌드박스 이름&#x200B;_)]**이라는 Customer Journey Analytics [연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)이(가) 만들어집니다.
+* 연결을 기반으로 제목이 **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**인 Customer Journey Analytics [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)가 만들어집니다.
+
+연결 및 데이터 보기는 모두 시스템 소유입니다. 연결 또는 데이터 보기를 업데이트하거나 삭제할 수 없습니다.
+
+위에서 언급한 데이터 세트, 연결 및 데이터 보기를 통해 Customer Journey Analytics에서 모델 점수 데이터를 사용할 수 있도록 하려면 다음을 수행하십시오.
+
+* **[!UICONTROL Enable scores for Customer Journey Analytics]**&#x200B;를 선택합니다.
+
+  이 설정을 활성화한 후에는 모델을 삭제해야만 설정을 비활성화할 수 있습니다.
+
+Customer Journey Analytics [작업 영역 프로젝트](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)에서 Marketing Campaign Analytics 데이터를 빠르게 보고하고 분석하려면 다음을 수행하십시오.
+
+1. **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**&#x200B;을(를) 선택합니다.
+1. 전용 **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**을(를) 프로젝트에 사용할 데이터 보기로 선택하십시오.
+1. **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [템플릿](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates)을(를) 선택하십시오.
+   * 미리 보기를 보려면 **[!UICONTROL Preview]**&#x200B;을(를) 선택하십시오.
+
+     ![Marketing Campaign Analytics 템플릿 미리 보기](/help/assets/model-cja-enable-template.png)
+   * 템플릿을 기반으로 프로젝트를 만들려면 **[!UICONTROL Use template]**&#x200B;을(를) 선택하십시오.
+
 ### 세분화된 통찰력 보고 필드
 
 **[!UICONTROL Granular insights reporting fields]** 섹션은 세분화된 증분 보고 기능을 사용합니다. 이 기능을 사용하면 전환율과 접점 증분 점수를 분류하기 위해 조정된 필드를 선택할 수 있습니다.
@@ -286,7 +318,7 @@ ht-degree: 7%
 
 별도의 모델을 생성하지 않고도 세분화된 보고 열을 사용하여 모델 보고에서 드릴다운할 수 있도록 이러한 통합 필드를 정의합니다.
 
-예를 들어 매출에 중점을 둔 모델을 구축하지만 캠페인, 미디어 유형, 지역 및 트래픽 소스 성과에도 관심이 있습니다. 세분화된 증분 보고 기능이 없으면 네 개의 개별 모델을 빌드해야 합니다. 세분화된 증분 보고 기능을 사용하여 캠페인, 미디어 유형, 지역 및 트래픽 소스에 대한 수익 모델을 분류할 수 있습니다.
+예를 들어 수익 중심 모델을 구축하지만 캠페인, 미디어 유형, 지역 및 트래픽 소스 성과에도 관심이 있습니다. 세분화된 증분 보고 기능이 없으면 네 개의 개별 모델을 빌드해야 합니다. 세분화된 증분 보고 기능을 사용하여 캠페인, 미디어 유형, 지역 및 트래픽 소스에 대한 수익 모델을 분류할 수 있습니다.
 
 1. **[!UICONTROL _통합 필드 선택_]**&#x200B;에서 **[!UICONTROL Includes]** 아래의 통합 필드를 하나 이상 선택하십시오. 선택한 조화화된 필드가 패널에 추가됩니다.
 1. **[!UICONTROL *Harmonized 필드&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하여 선택된 Harmonized 필드가 있는 컨테이너에서 Harmonized 필드를 제거합니다.
