@@ -289,8 +289,8 @@ ht-degree: 8%
 Customer Journey Analytics에 대한 권한이 있고 특정 샌드박스에서 Marketing Campaign Analytics에 대해 하나 이상의 [데이터 세트 규칙](/help/harmonize-data/dataset-rules.md)을(를) 만든 경우:
 
 * Experience Platform 샌드박스에 두 개의 전용 Marketing Campaign Analytics 데이터 세트가 생성됩니다.
-* 전용 Marketing Campaign Analytics 데이터 세트를 포함하는 **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_샌드박스 이름&#x200B;_)]**이라는 Customer Journey Analytics [연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)이(가) 만들어집니다.
-* 연결을 기반으로 제목이 **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**인 Customer Journey Analytics [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)가 만들어집니다.
+* 전용 Marketing Campaign Analytics 데이터 세트를 포함하는 **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_샌드박스 이름&#x200B;_)]**&#x200B;이라는 Customer Journey Analytics [연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)이(가) 만들어집니다.
+* 연결을 기반으로 제목이 **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;인 Customer Journey Analytics [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)가 만들어집니다.
 
 연결 및 데이터 보기는 모두 시스템 소유입니다. 연결 또는 데이터 보기를 업데이트하거나 삭제할 수 없습니다.
 
@@ -303,7 +303,7 @@ Customer Journey Analytics에 대한 권한이 있고 특정 샌드박스에서 
 Customer Journey Analytics [작업 영역 프로젝트](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)에서 Marketing Campaign Analytics 데이터를 빠르게 보고하고 분석하려면 다음을 수행하십시오.
 
 1. **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**&#x200B;을(를) 선택합니다.
-1. 전용 **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**을(를) 프로젝트에 사용할 데이터 보기로 선택하십시오.
+1. 전용 **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;을(를) 프로젝트에 사용할 데이터 보기로 선택하십시오.
 1. **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [템플릿](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates)을(를) 선택하십시오.
    * 미리 보기를 보려면 **[!UICONTROL Preview]**&#x200B;을(를) 선택하십시오.
 
