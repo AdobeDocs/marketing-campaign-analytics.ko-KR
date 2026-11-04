@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: 5dfbd7542422d93969c2ffe44475d847693e8910
 workflow-type: tm+mt
-source-wordcount: '3099'
+source-wordcount: '3122'
 ht-degree: 10%
 ---
 # 모델 인사이트
@@ -154,6 +154,8 @@ ht-degree: 10%
 >[!ENDTABS]
 
 특정 funnel 흐름에 대한 자세한 내용이 포함된 팝업을 보려면 흐름 위로 마우스를 가져갑니다.
+
+선택한 상위 funnel 전환과 연결된 채널([전환](/help/harmonize-data/conversions.md)에 정의됨)이 시각화 중앙에 표시됩니다(예: **[!UICONTROL Store]**).
 
 ### 접점 분류
 
