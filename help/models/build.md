@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
-ht-degree: 8%
+ht-degree: 10%
 ---
 # 모델 구축
 
@@ -283,7 +283,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Customer Journey Analytics 활성화"
->abstract="Customer Journey Analytics에서 보고 및 분석에 점수 데이터를 사용할 수 있도록 하려면 이 설정을 활성화합니다. 이 설정을 활성화하면 모델을 삭제하여 이 설정을 비활성화해야 합니다."
+>abstract="Customer Journey Analytics에서 보고 및 분석에 점수 데이터를 사용할 수 있도록 하려면 이 설정을 활성화하세요. 이 설정을 활성화한 후에는 모델을 삭제해야만 비활성화할 수 있습니다."
 
 {{release-limited-testing-section}}
 
